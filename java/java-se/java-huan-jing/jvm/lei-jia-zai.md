@@ -3,6 +3,8 @@ http://www.cnblogs.com/aspirant/p/7200523.html
 # 什么是类加载器
 类加载器负责读取 Java 字节代码，并转换成 java.lang.Class类的一个实例。每个这样的实例用来表示一个 Java 类。通过此实例的 newInstance()方法就可以创建出该类的一个对象
 
+![](/assets/classLoader.PNG)
+
 
 
 # 类加载器与类的”相同“判断
