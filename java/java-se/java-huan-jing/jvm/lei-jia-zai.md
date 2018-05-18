@@ -13,7 +13,7 @@ http://www.cnblogs.com/aspirant/p/7200523.html
 # 类加载器种类
 启动类加载器，Bootstrap ClassLoader，加载JACA_HOME\lib，或者被-Xbootclasspath参数限定的类
 扩展类加载器，Extension ClassLoader，加载\lib\ext，或者被java.ext.dirs系统变量指定的类
-应用程序类加载器，Application ClassLoader，加载ClassPath中的类库
+应用程序类加载器，Application ClassLoader，加载ClassPath paht中的类库
 自定义类加载器，通过继承ClassLoader实现，一般是加载我们的自定义类
 
 # 双亲委派 
