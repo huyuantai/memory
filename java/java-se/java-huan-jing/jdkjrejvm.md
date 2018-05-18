@@ -6,3 +6,4 @@ JRE中包含了Java virtual machine（JVM），runtime class libraries和Java ap
 
 # JVM
 Java 虚拟机是台抽象的计算机。像计算机那样，它有自己的指令集以及各种运行时内存区域
+Java虚拟机包括一套字节码指令集、一组寄存器、一个栈、一个垃圾回收堆和一个存储方法域。 JVM屏蔽了与具体操作系统平台相关的信息，使Java程序只需生成在Java虚拟机上运行的目标代码（字节码）,就可以在多种平台上不加修改地运行
