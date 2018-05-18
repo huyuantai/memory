@@ -41,3 +41,5 @@ Class ---> 方法区
 # 自定义类加载器
 继承ClassLoader，Override findClass方法
 
+# 自定义类加载器的意义？
+
