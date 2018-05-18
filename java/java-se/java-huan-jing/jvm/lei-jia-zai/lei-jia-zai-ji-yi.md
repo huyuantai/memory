@@ -7,7 +7,7 @@ Class ---> 方法区
 
 # 分类
 启动扩展应用（启动扩展应用功能）
-启动lib类库
+启动lib类库 （javahone）
 扩展lib/ext类库
 应用ClassPath，path的
 
