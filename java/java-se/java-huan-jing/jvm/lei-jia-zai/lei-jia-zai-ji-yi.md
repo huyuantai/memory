@@ -39,7 +39,7 @@ Class ---> 方法区
 > 线程上下文类加载器: 父类加载器请求子类加载器去完成类加载器(破坏双亲)
 
 # 自定义类加载器
-继承ClassLoader，Override findClass方法
+继承ClassLoader，Override findClass方法，defineClass()方法创建了类的class对象
 
 # 自定义类加载器的意义？
 1.class文件不在ClassPath路径，类加载找不到它
