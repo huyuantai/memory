@@ -23,6 +23,6 @@ Class ---> 方法区
 loadClass
 
 
-#破坏双亲
+#破坏双亲   线程上下文
 SPI
 
