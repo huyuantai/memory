@@ -12,4 +12,10 @@
     * [Java 环境](java/java-se/java-huan-jing.md)
       * [JDK、JRE、JVM](java/java-se/java-huan-jing/jdkjrejvm.md)
       * [JVM](java/java-se/java-huan-jing/jvm.md)
+    * 基本数据类型
+    * 面向对象
+    * Java集合
+    * 异常处理
+    * 泛型
+    * 并发多线程
 
