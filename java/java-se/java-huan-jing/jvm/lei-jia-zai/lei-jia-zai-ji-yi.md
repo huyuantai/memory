@@ -9,7 +9,7 @@ Class ---> 方法区
 启动扩展应用（启动扩展应用功能）
 启动lib类库
 扩展ext类库
-应用ClassPath，path的程序
+应用ClassPath，path的
 
 
 
