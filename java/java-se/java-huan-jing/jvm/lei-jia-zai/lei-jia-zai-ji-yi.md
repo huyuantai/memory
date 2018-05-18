@@ -45,4 +45,4 @@ Class ---> 方法区
 1.class文件不在ClassPath路径，类加载找不到它
 2.class文件加密后传输网络，自定义类加器可实现对它加密
 3.热部署功能
-> 找不到class文件、加密class文件
+> 找不到class文件、加密class文件、热部署
