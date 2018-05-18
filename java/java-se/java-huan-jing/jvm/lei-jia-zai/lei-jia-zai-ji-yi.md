@@ -28,7 +28,7 @@ Class ---> 方法区
 > 保证不同类加载器同个Object类，不用双亲造成两个Object类（自己定义另一个Object），混乱
 
 
-#破坏双亲   线程上下文
+#破坏双亲   
 常见的 SPI 有 JDBC、JCE、JNDI、JAXP 和 JBI 等
 启动加载器加载核心类库的SPI接口； 
 应用器加载SPI实现类
