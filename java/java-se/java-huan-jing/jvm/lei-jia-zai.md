@@ -13,8 +13,7 @@ http://www.cnblogs.com/aspirant/p/7200523.html
 应用程序类加载器，Application ClassLoader，加载ClassPath中的类库
 自定义类加载器，通过继承ClassLoader实现，一般是加载我们的自定义类
 
-#
-双亲委派好处
+# 双亲委派好处
 
 避免同一个类被多次加载；
 每个加载器只能加载自己范围内的类；
