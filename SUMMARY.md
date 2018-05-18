@@ -11,4 +11,5 @@
   * [Java SE](java/java-se.md)
     * [Java 环境](java/java-se/java-huan-jing.md)
       * [JDK、JRE、JVM](java/java-se/java-huan-jing/jdkjrejvm.md)
+      * [JVM](java/java-se/java-huan-jing/jvm.md)
 
