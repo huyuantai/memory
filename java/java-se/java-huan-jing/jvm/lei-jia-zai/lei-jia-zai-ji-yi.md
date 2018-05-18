@@ -32,4 +32,4 @@ Class ---> 方法区
 常见的 SPI 有 JDBC、JCE、JNDI、JAXP 和 JBI 等
 启动加载器加载核心类库的SPI接口； 
 应用器加载SPI实现
-
+引导类加载器是无法找到 SPI 的实现类的，因为它只加载 Java 的核心库
