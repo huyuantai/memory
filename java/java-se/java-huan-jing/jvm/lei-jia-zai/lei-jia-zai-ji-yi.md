@@ -42,4 +42,4 @@ Class ---> 方法区
 继承ClassLoader，Override findClass方法
 
 # 自定义类加载器的意义？
-class文件不在ClassPath路径，类加载找不到
+class文件不在ClassPath路径，类加载找不到它
