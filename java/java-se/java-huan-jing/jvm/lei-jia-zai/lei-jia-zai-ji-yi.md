@@ -11,7 +11,7 @@ Class ---> 方法区
 扩展lib/ext类库
 应用ClassPath，path的
 
-# 关系
+# 双亲模型
 通过组合实现父子关系，非继承
 
 
