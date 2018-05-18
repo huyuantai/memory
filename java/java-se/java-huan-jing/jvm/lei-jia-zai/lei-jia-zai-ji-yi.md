@@ -30,5 +30,6 @@ Class ---> 方法区
 
 #破坏双亲   线程上下文
 常见的 SPI 有 JDBC、JCE、JNDI、JAXP 和 JBI 等
-启动加载器加载核心类库的SPI接口； 应用器加载SPI实现
+启动加载器加载核心类库的SPI接口； 
+应用器加载SPI实现
 
