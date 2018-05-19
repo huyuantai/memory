@@ -53,59 +53,18 @@ Class ---> 方法区
 # 抽象类ClassLoader，双亲模型的实现逻辑在此
 ExtClassLoader、AppClassLoader都继承于抽象类ClassLoader，而在ClassLoader中的loadClass实现了双亲模型的逻辑
 
-```
-protected Class<?> loadClass(String name, boolean resolve)
-      throws ClassNotFoundException
-  {
-      synchronized (getClassLoadingLock(name)) {
-          // 先从缓存查找该class对象，找到就不用重新加载
-          Class<?> c = findLoadedClass(name);
-          if (c == null) {
-              long t0 = System.nanoTime();
-              try {
-                  if (parent != null) {
-                      //如果找不到，则委托给父类加载器去加载
-                      c = parent.loadClass(name, false);
-                  } else {
-                  //如果没有父类，则委托给启动加载器去加载
-                      c = findBootstrapClassOrNull(name);
-                  }
-              } catch (ClassNotFoundException e) {
-                  // ClassNotFoundException thrown if class not found
-                  // from the non-null parent class loader
-              }
-
-              if (c == null) {
-                  // If still not found, then invoke findClass in order
-                  // 如果都没有找到，则通过自定义实现的findClass去查找并加载
-                  c = findClass(name);
-
-                  // this is the defining class loader; record the stats
-                  sun.misc.PerfCounter.getParentDelegationTime().addTime(t1 - t0);
-                  sun.misc.PerfCounter.getFindClassTime().addElapsedTimeFrom(t1);
-                  sun.misc.PerfCounter.getFindClasses().increment();
-              }
-          }
-          if (resolve) {//是否需要在加载时进行解析
-              resolveClass(c);
-          }
-          return c;
-      }
-  }
-```
-
-
 ```java
 public static void main(String[] args) {  
-    String x = new String("ab");  
-    change(x);  
-    System.out.println(x);  
-}  
-   
-public static void change(String x) {  
-    x = "cd";  
+String x = new String("ab");
+change(x);
+System.out.println(x);
+}
+public static void change(String x) {
+x = "cd";
 }
 ```
+
+
 
 
 
