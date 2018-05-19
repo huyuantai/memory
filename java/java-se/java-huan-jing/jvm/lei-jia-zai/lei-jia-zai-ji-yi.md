@@ -58,6 +58,8 @@ Class ---> 方法区
 3.没有就交给启动类加载器加载
 4.没有的话就交给自定义实现的findClass方法去加载并实现
 
+由于自定义类加载器继承
+
 ```java
 protected Class<?> loadClass(String name, boolean resolve)
       throws ClassNotFoundException
