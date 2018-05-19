@@ -51,6 +51,9 @@ Class ---> 方法区
 ![](/assets/20170625231013755.png)
 
 # 抽象类ClassLoader，双亲模型的实现逻辑在此
-ExtClassLoader、AppClassLoader都继承于抽象类ClassLoader
+ExtClassLoader、AppClassLoader都继承于抽象类ClassLoader，而在ClassLoader中的
+```java
+
+```
 
 
