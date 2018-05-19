@@ -61,7 +61,7 @@ Class ---> 方法区
 由于自定义类加载器继承ClassLoader，实现findClass方法，所以自定义加载器满足双亲模型，因为类加载还是调用loadClass方法，只是如果都找不到，最后就调用自定义类加载器的findClass方法加载
 
 findClass 实现
-getClassData
+1.通过getClassData获取字节码数组
 
 # loadClass
 ```java
