@@ -101,6 +101,18 @@ protected Class<?> loadClass(String name, boolean resolve)
   }
 ```
 
+```java
+protected Class<?> findClass(String name) throws ClassNotFoundException {
+      // 获取类的字节数组
+      byte[] classData = getClassData(name);  
+      if (classData == null) {
+          throw new ClassNotFoundException();
+      } else {
+          //使用defineClass生成class对象
+          return defineClass(name, classData, 0, classData.length);
+      }
+  }
+```
 
 
 
