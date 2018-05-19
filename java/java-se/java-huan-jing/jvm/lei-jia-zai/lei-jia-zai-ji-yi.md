@@ -63,7 +63,9 @@ Class ---> 方法区
 findClass 实现
 1.获取类的字节数组
 byte[] classData = getClassData(name);
-2.
+2.使用defineClass生成class对象
+return defineClass(name, classData, 0, classData.length);
+
 
 # loadClass
 ```java
