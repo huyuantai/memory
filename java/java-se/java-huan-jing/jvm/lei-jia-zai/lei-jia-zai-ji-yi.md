@@ -52,6 +52,8 @@ Class ---> 方法区
 
 # 抽象类ClassLoader，双亲模型的实现逻辑在此
 > ExtClassLoader、AppClassLoader都继承于抽象类ClassLoader，而在ClassLoader中的loadClass实现了双亲模型的逻辑
+如下：
+
 
 ```java
 protected Class<?> loadClass(String name, boolean resolve)
