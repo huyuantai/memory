@@ -55,7 +55,8 @@ Class ---> 方法区
 如下：
 1.查找缓存中有没Class
 2.没有交给父类加载器loadClass，这里是递归，所以父类的loadClass,又交给父类的父类加载器loadClass
-3.没有
+3.没有就交给启动类加载器加载
+4.没有的话就交给自定义实现的findClass方法去加载并实现
 
 ```java
 protected Class<?> loadClass(String name, boolean resolve)
