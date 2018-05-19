@@ -14,6 +14,7 @@
       * [！JVM](java/java-se/java-huan-jing/jvm.md)
         * [类加载](java/java-se/java-huan-jing/jvm/lei-jia-zai.md)
           * [类加载记忆](java/java-se/java-huan-jing/jvm/lei-jia-zai/lei-jia-zai-ji-yi.md)
+        * [回收算法](java/java-se/java-huan-jing/jvm/hui-shou-suan-fa.md)
     * 基本数据类型
     * 面向对象
     * ！Java集合
