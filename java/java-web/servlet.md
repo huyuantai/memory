@@ -25,5 +25,5 @@ web容器在创建servlet实例对象时，会自动将这些初始化参数封�
 
 # ServletContext
 ServletContext：代表当前web应用
-
+WEB容器在启动时，它会为每个WEB应用程序都创建一个对应的ServletContext对象，它代表当前web应用
 
