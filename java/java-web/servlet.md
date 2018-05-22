@@ -70,3 +70,6 @@ public void doGet(HttpServletRequest request, HttpServletResponse response)
 5、在action的生命周期中，拦截器可以多次被调用，而过滤器只能在容器初始化时被调用一次 
 
 
+![](/assets/20180411154043618)
+
+
