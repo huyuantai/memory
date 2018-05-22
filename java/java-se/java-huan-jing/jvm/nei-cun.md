@@ -44,7 +44,7 @@ cpu高（应用超时）->内存高->oom
 1.heap space
 2.perm space
 3.direct memory
-4.gc
+4.gc limt
 
 
 
