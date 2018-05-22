@@ -6,4 +6,4 @@ servlet 是服务端程序，只能由servlet容器来运行，且管理，常�
 ![](/assets/xwuusnjs.aao.jpg)
 
 # 
-ServletConfig:代表当前Servlet在web.xml中的配置信息
+ServletConfig:Servlet在web.xml中的配置信息
