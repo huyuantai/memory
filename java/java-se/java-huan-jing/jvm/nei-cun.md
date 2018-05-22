@@ -17,6 +17,7 @@ cpu高（应用超时）->内存高->oom
 > top得进程ID---\> top -Hp \[进程 ID\]得线程ID
 > jstack -l \[进程 ID\] &gt;jstack.log 得线程信息
 > printf "%x\n" \[十进制数字\] ，可以将 10 进制转换成 16 进制
+> 用16进制查看线程信息
 
 
 #### 确认GC问题 [GC日志、jmap dump堆信息]
