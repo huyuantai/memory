@@ -40,7 +40,7 @@ cpu高（应用超时）->内存高->oom
 > 内存设置太小：查看jvm 参数
 > 代码内存泄漏：dump文件 eclipse mat 可看出
 
-应用日志可以看出
+应用日志可以看出outofmemory
 
 
 
