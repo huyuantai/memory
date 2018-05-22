@@ -22,6 +22,8 @@ cpu高、内存高、OOM、Full gc 频繁超时（应用超时 应用很慢）
 * 5.理由bcTrance 确认谁调用system gc
 * 6.确认是cxf工具包1.先定位java进程、线程
 
+
+
 ##### 定位进程、线程
 * 1.通过 top 命令找到 CPU 消耗最高的进程，并记住进程 ID。
 * 2.再次通过 top -Hp [进程 ID] 找到 CPU 消耗最高的线程 ID，并记住线程 ID.
