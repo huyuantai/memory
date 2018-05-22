@@ -7,7 +7,7 @@ servlet 是服务端程序，只能由servlet容器来运行，且管理，常�
 
 # ServletConfig
 ServletConfig:Servlet在web.xml中的配置信息(如下的init-param)
-web容器在创建servlet实例对象时，会自动将这些初始化参数封装到ServletConfig对象
+web容器在创建servlet实例对象时，会自动将这些初始化参数封装到ServletConfig对象，然后
 ```xml
 <servlet>
         <servlet-name>ServletConfigTest</servlet-name>
