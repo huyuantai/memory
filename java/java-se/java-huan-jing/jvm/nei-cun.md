@@ -24,7 +24,7 @@ cpu高（应用超时）->内存高->oom
 确认是Full GC：1.软件显示周期system gc、内存设置太小、代码内存泄漏
 都不是下一步
 
->确认Full GC：从GC日志可看出
+> 确认Full GC：从GC日志可看出
 
 #### 确认是否OOM [应用日志、jmap dump堆信息]
 从应用日志查看是否outofmemory： 1内存设置太小、代码内存泄漏
