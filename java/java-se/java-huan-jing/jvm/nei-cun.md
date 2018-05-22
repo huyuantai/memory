@@ -15,7 +15,7 @@ cpu高（应用超时）->内存高->oom
 从jstack栈信息查看是否线程死循环、死锁、密集计算、sql查询
 都不是且线程为VM线程一直GC，则确认是下一步GC问题
 >top得进程ID---\> top -Hp \[进程 ID\]得线程ID
->jstack -l \[进程 ID\] &gt;jstack.log
+>jstack -l \[进程 ID\] &gt;jstack.log 得线程信息
 
 
 #### 确认GC问题 [GC日志、jmap dump堆信息]
