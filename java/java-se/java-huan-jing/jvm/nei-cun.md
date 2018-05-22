@@ -25,7 +25,7 @@ cpu高（应用超时）->内存高->oom
 都不是下一步
 
 > 确认Full GC：从GC日志可看出
-> 周期system gc：从GC日志可看出或jstat -gcutil
+> 周期system gc：从GC日志或jstat -gcutil可看出
 > 确认Full GC：从GC日志可看出
 > 确认Full GC：从GC日志可看出
 
