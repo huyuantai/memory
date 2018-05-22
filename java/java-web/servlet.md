@@ -44,4 +44,12 @@ INF/jason-servlet.xml</param-value>
 ```
 
 # 实现Servlet的转发
-
+```java
+public void doGet(HttpServletRequest request, HttpServletResponse response)
+17             throws ServletException, IOException {
+18         RequestDispatcher dispatcher = this.getServletContext()
+19                 .getRequestDispatcher("/servlet/ServletTest05");// 参数中写虚拟路径
+20         dispatcher.forward(request, response); // 执行完这一行代码后，将会跳到ServletTest05中去执行。
+21 
+22     }
+```
