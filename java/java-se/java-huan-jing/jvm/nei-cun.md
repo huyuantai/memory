@@ -20,7 +20,7 @@ cpu高、内存高、OOM、Full gc 频繁超时（应用超时 应用很慢）
 
 | 定位Java进程、线程 | 如果线程是VM线程 并一直GC | 如果线程非VM线程，即查看该线程问题 |
 | :--- | :--- | :--- |
-|  | 1.查看GC日志情况，是不是频繁Full gc |  |
+|  | 1.查看GC日志情况，是不是频繁Full gc |  线程死循环、死锁、密集运算 |
 |  | 2 jmap -dump 内存情况 dump 文件 |  |
 |  | 3 eclipse mat 分析dump文件没问题 |  |
 |  | 4.利用bcTrance 确认谁调用systemgc |  |
