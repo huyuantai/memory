@@ -22,3 +22,7 @@ web容器在创建servlet实例对象时，会自动将这些初始化参数封�
         </init-param>
     </servlet>
 ```
+
+ServletContext：代表当前web应用
+
+
