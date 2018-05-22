@@ -23,8 +23,8 @@ cpu高、内存高、OOM、Full gc 频繁超时（应用超时 应用很慢）
 |  | 1.查看GC日志情况，是不是频繁Full gc |  |
 |  | 2 jmap -dump 内存情况 dump 文件 |  |
 |  | 3 eclipse mat 分析dump文件没问题 |  |
-|  |  |  |
-|  |  |  |
+|  | 4.利用bcTrance 确认谁调用systemgc |  |
+|  | 5确认是cxf工具包 |  |
 |  |  |  |
 |  |  |  |
 
