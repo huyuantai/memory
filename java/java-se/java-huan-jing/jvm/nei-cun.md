@@ -32,6 +32,7 @@ cpu高（应用超时）->内存高->oom
 
 #### 确认是否OOM [应用日志、jmap dump堆信息]
 从应用日志查看是否outofmemory： 1内存设置太小、代码内存泄漏
+
 > 确认Full GC：从GC日志可看出
 > 周期system gc：从GC日志或jstat -gcutil可看出
 > 内存设置太小：查看jvm 参数
