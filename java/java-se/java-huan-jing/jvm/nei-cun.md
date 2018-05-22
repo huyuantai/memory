@@ -27,7 +27,8 @@ cpu高（应用超时）->内存高->oom
 > 确认Full GC：从GC日志可看出
 > 周期system gc：从GC日志或jstat -gcutil可看出
 > 内存设置太小：查看jvm 参数
-> 确认Full GC：从GC日志可看出
+> 代码内存泄漏
+：从GC日志可看出
 
 
 
