@@ -7,3 +7,17 @@ servlet 是服务端程序，只能由servlet容器来运行，且管理，常�
 
 # ServletConfig
 ServletConfig:Servlet在web.xml中的配置信息
+```xml
+<servlet>
+        <servlet-name>ServletConfigTest</servlet-name>
+        <servlet-class>com.vae.servlet.ServletConfigTest</servlet-class>
+        <init-param>
+            <param-name>name1</param-name>
+            <param-value>value1</param-value>
+        </init-param>
+        <init-param>
+            <param-name>encode</param-name>
+            <param-value>utf-8</param-value>
+        </init-param>
+    </servlet>
+```
