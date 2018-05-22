@@ -41,7 +41,10 @@ cpu高（应用超时）->内存高->oom
 > 代码内存泄漏：dump文件 eclipse mat 可看出
 
 应用日志可以看出outofmemory
-
+1.heap space
+2.perm space
+3.direct memory
+4.gc
 
 
 
