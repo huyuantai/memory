@@ -18,6 +18,7 @@
         * [内存](java/java-se/java-huan-jing/jvm/nei-cun.md)
         * [回收算法](java/java-se/java-huan-jing/jvm/hui-shou-suan-fa.md)
         * [GC](java/java-se/java-huan-jing/jvm/gc.md)
+        * [Java故障案例](java/java-se/java-huan-jing/jvm/javagu-zhang-an-li.md)
     * 基本数据类型
     * 面向对象
     * ！Java集合
