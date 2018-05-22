@@ -16,7 +16,7 @@ cpu高（应用超时）->内存高->oom
 都不是且线程为VM线程一直GC，则确认是下一步GC问题
 > top得进程ID---\> top -Hp \[进程 ID\]得线程ID
 > jstack -l \[进程 ID\] &gt;jstack.log 得线程信息
->
+> printf "%x\n" \[十进制数字\] ，可以将 10 进制转换成 16 进制
 
 
 #### 确认GC问题 [GC日志、jmap dump堆信息]
