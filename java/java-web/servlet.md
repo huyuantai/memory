@@ -27,4 +27,19 @@ web容器在创建servlet实例对象时，会自动将这些初始化参数封�
 ServletContext：代表当前web应用,在web.xml的context-param
 WEB容器在启动时，它会为每个WEB应用程序都创建一个对应的ServletContext对象，它代表当前web应用
 > 整个web应用范围内共享数据
+```xml
+<context-param>
+    <param-name>contextConfigLocation</param-name>
+    <param-value>/WEB-INF/applicationContext.xml,/WEB-INF/action-servlet.xml,/WEB-
+INF/jason-servlet.xml</param-value>
+</context-param>
+<listener>
+    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+</listener>
+又如: --->自定义context-param,且自定义listener来获取这些信息
+<context-param>
+    <param-name>urlrewrite</param-name>
+    <param-value>false</param-value>
+</context-param>
+```
 
