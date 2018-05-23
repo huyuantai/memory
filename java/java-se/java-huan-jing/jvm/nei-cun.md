@@ -11,7 +11,7 @@ https://tech.meituan.com/jvm_optimize.html
 解决
 
 # 具体排查流程
-cpu高（应用超时）->内存高->oom
+cpu高（应用超时，应用慢）->内存高->oom
 1.确认进程线程
 2.确认是否是GC问题
 3.确认是否OOM
