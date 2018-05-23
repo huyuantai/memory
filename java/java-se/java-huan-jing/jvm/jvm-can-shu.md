@@ -21,6 +21,7 @@
 -XX:SurvivorRatio Eden与Survivor的比例、-XX:MaxTenuringThreshold垃圾最大年龄
 
 # 收集器
+年轻代为并行收集
 
 # CMS相关参数
 
