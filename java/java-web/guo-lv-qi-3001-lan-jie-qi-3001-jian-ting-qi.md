@@ -10,4 +10,4 @@
 # 过滤器
 ![](/assets/20180411154043618)
 
-Tomcat的过滤器主要由Filter、FilterChain组成，FilterChain包含一个Filter数组.当Wrapper执行FilterChain的doFilter(request,response)方法时，FilterChain首先调用第一个Filter的doFilter(request,response,filterchain)方法，当第一个filter做完过滤操作后，它又会调用filterchain的doFilter方法，此时filterchain的当前filter已变为第二个filter，第二个filter又执行dofilter方法，依此类推，直至所有过滤器都执行完毕 
+Tomcat的Filter主要由Filter、FilterChain组成，FilterChain包含一个Filter数组.当Wrapper执行FilterChain的doFilter(request,response)方法时，FilterChain首先调用第一个Filter的doFilter(request,response,filterchain)方法，当第一个filter做完过滤操作后，它又会调用filterchain的doFilter方法，此时filterchain的当前filter已变为第二个filter，第二个filter又执行dofilter方法，依此类推，直至所有过滤器都执行完毕 
