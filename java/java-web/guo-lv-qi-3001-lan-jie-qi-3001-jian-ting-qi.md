@@ -20,6 +20,8 @@ https://blog.csdn.net/jijianshuai/article/details/77878673
 ![](/assets/20180411154043618)
 ![](/assets/0_1328601574JQZh.gif)
 
+Filter是一种过滤链式的实现
+Tomcat的Filter主要由Filter、FilterChain组成
 * 每一请求就创建一个fiterChain，并将对应的servlet设置到fiterChain中
 还将该请求对应的fiter添加到fiter数组中
 * fiterChain被调用，执行fiterChain.doFiter,定位第一个fiter执行fiter.doFiter,
