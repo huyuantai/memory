@@ -21,7 +21,7 @@ https://blog.csdn.net/jijianshuai/article/details/77878673
 ![](/assets/0_1328601574JQZh.gif)
 
 * 每一请求就创建一个fiterChain，并将对应的servlet设置到fiterChain中
-
+还将该请求对应的fiter添加到fiter数组中
 
 
 * Tomcat的Filter主要由Filter、FilterChain组成，FilterChain含Filter数组
