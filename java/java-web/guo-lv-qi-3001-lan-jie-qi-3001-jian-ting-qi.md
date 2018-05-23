@@ -29,7 +29,9 @@ https://blog.csdn.net/jijianshuai/article/details/77878673
 
 # 滤器和拦截器实现的方式的不同. 
 > Filter是利用了方法的调用(入栈出栈)完成整个流程, 而Interceptor是利用了for循环完成了整个流程.
+
 Filter的实现比较占用栈空间, 在Filter多的情况下可能会有栈溢出的风险存在.
 Interceptor的实现逻辑更加的清晰简单
-Filter组件更加的通用, 只要支持java servlet的容器都可以使用, 而Interceptor必须依赖于Spring
+# 支持的范围
+>Filter组件更加的通用, 只要支持java servlet的容器都可以使用, 而Interceptor必须依赖于Spring
 Filter的优先级是高于Interceptor, 即请求是先到Filter再到Interceptor的, 因为Interceptor的实现主体还是一个servlet
