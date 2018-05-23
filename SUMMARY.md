@@ -15,10 +15,9 @@
         * [虚拟机结构](java/java-se/java-huan-jing/jvm/xu-ni-ji-jie-gou.md)
         * [类加载](java/java-se/java-huan-jing/jvm/lei-jia-zai.md)
           * [类加载记忆](java/java-se/java-huan-jing/jvm/lei-jia-zai/lei-jia-zai-ji-yi.md)
-        * [内存](java/java-se/java-huan-jing/jvm/nei-cun.md)
+        * [java故障排查](java/java-se/java-huan-jing/jvm/nei-cun.md)
         * [回收算法](java/java-se/java-huan-jing/jvm/hui-shou-suan-fa.md)
         * [GC](java/java-se/java-huan-jing/jvm/gc.md)
-        * [Java故障案例](java/java-se/java-huan-jing/jvm/javagu-zhang-an-li.md)
     * 基本数据类型
     * 面向对象
     * [！Java集合](java/java-se/javaji-he.md)
