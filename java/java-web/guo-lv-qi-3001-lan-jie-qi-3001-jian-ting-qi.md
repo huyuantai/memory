@@ -34,4 +34,5 @@ Filter的实现比较占用栈空间, 在Filter多的情况下可能会有栈溢
 Interceptor的实现逻辑更加的清晰简单
 # 支持的范围
 >Filter组件更加的通用, 只要支持java servlet的容器都可以使用, 而Interceptor必须依赖于Spring
+# 顺序
 Filter的优先级是高于Interceptor, 即请求是先到Filter再到Interceptor的, 因为Interceptor的实现主体还是一个servlet
