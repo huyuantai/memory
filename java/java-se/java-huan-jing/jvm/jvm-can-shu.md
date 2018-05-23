@@ -1,9 +1,7 @@
 * 运行模式Client、Server
 * 各代内存大小
 * 收集器
-CMS相关参数
-
-
+* CMS相关参数
 * 辅助日志
 
 # 运行模式 Client 和 Server
