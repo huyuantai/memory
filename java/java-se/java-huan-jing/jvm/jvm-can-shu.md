@@ -17,3 +17,4 @@
 
 # 各代内存大小
 初始化堆、最大堆、年轻代、永久代初始化、永久代最大、-Xss线程栈大小
+-XX:SurvivorRatio Eden与servidor的比例
