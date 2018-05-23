@@ -12,4 +12,6 @@
 
 * Tomcat的Filter主要由Filter、FilterChain组成，FilterChain含Filter数组
 当执行FilterChain的doFilter，FilterChain调用第一个Filter的doFilter
-当第一个filter做完过滤操作后，它又会调用filterchain的doFilter方法，此时filterchain的当前filter已变为第二个filter，第二个filter又执行dofilter方法，依此类推，直至所有过滤器都执行完毕 
+当第一个filter做完过滤操作后，它又会调用filterchain的doFilter方法，
+
+此时filterchain的当前filter已变为第二个filter，第二个filter又执行dofilter方法，依此类推，直至所有过滤器都执行完毕 
