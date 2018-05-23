@@ -6,3 +6,6 @@ Client JVM适合需要快速启动和较小内存空间的应用，它适合交�
 
 
 Server JVM 比 Client JVM InitialHeapSize和MaxHeapSize明显比Client JVM大出许多
+
+
+Server JVM  比 Client JVM 编译器作了很多优化
