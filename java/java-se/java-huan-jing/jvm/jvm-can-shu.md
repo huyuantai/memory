@@ -1,4 +1,24 @@
 * 运行模式Client、Server
+* 各代内存大小
+* 运行模式Client、Server
+* 运行模式Client、Server
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
