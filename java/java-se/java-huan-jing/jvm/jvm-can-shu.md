@@ -24,11 +24,9 @@
 年轻代为并行收集、老年代用CMS
 
 # CMS相关参数
-XX+UseCMSCompactAtFullCollection	在FULL GC的时候， 对年老代的压缩	 	CMS是不会移动内存的， 因此， 这个非常容易产生碎片， 导致内存不够用， 因此， 内存的压缩这个时候就会被启用。 增加这个参数是个好习惯。
-可能会影响性能,但是可以消除碎片
--XX:+UseCMSInitiatingOccupancyOnly	使用手动定义初始化定义开始CMS收集	 	禁止hostspot自行触发CMS GC
--XX:CMSInitiatingOccupancyFraction=70	使用cms作为垃圾回收
-使用70％后开始CMS收集	92	为了保证不出现promotion failed(见下面介绍)错误,该值的设置需要满足以下公式CMSInitiatingOccupancyFraction计算公式
+XX+UseCMSCompactAtFullCollection	在FULL GC的时候， 对年老代的压缩
+-XX:+UseCMSInitiatingOccupancyOnly	使用手动定义初始化定义开始CMS收集	 	
+-XX:CMSInitiatingOccupancyFraction=70	使用cms作为垃圾回收使用70％后开始CMS收集	
 -XX:CMSInitiatingPermOccupancyFraction	设置Perm Gen使用到达多少比率时触发
 
 # 辅助日志
