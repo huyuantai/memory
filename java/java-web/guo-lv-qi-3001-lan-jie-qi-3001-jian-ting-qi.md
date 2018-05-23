@@ -24,7 +24,7 @@ Filter是一种过滤链式的实现
 Tomcat的Filter主要由Filter、FilterChain组成
 * 每一请求就创建一个fiterChain，并将对应的servlet设置到fiterChain中
 还将该请求对应的fiter添加到fiter数组中
-* fiterChain被调用，执行fiterChain.doFiter,定位第一个fiter执行fiter.doFiter, fiter.doFiter又会执行fiterChain.doFiter，fiterChain.doFiter就定位第二个fiter执行，依此类推，直到最后一个fiter执行完，就执行真正的serlvet.service方法，执行完
+* fiterChain被调用，执行fiterChain.doFiter,定位第一个fiter执行fiter.doFiter, fiter.doFiter又会执行fiterChain.doFiter，fiterChain.doFiter就定位第二个fiter执行，依此类推，直到最后一个fiter执行完，就执行真正的serlvet.service方法，执行完serlvet.service方法
 
 
 
