@@ -7,7 +7,7 @@
 5、在action的生命周期中，拦截器可以多次被调用，而过滤器只能在容器初始化时被调用一次 
 
 
-# 过滤器 （回调方式FilterChain调用Filter）
+# 过滤器 （回调方式FilterChain调用Filter，）
 ![](/assets/20180411154043618)
 
 * Tomcat的Filter主要由Filter、FilterChain组成，FilterChain含Filter数组
