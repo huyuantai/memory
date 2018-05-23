@@ -30,5 +30,6 @@ XX+UseCMSCompactAtFullCollection	在FULL GC的时候， 对年老代的压缩
 -XX:CMSInitiatingPermOccupancyFraction	设置Perm Gen使用到达多少比率时触发
 
 # 辅助日志
+-XX:+PrintGC
 
 
