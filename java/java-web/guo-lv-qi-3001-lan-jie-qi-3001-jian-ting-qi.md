@@ -20,7 +20,7 @@ https://blog.csdn.net/jijianshuai/article/details/77878673
 ![](/assets/20180411154043618)
 ![](/assets/0_1328601574JQZh.gif)
 
-* 每一请求就创建一个fiterChain，并将对应的servlet设置到
+* 每一请求就创建一个fiterChain，并将对应的servlet设置到fiterChain
 
 
 
