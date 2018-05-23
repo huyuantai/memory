@@ -14,3 +14,5 @@
 
 
 > Server JVM  比 Client JVM 编译器作了很多优化
+
+# 各代内存大小
