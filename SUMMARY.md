@@ -21,8 +21,8 @@
         * [Java故障案例](java/java-se/java-huan-jing/jvm/javagu-zhang-an-li.md)
     * 基本数据类型
     * 面向对象
-    * ！Java集合
-    * 异常处理
-    * 泛型
-    * ！并发多线程
+    * [！Java集合](java/java-se/javaji-he.md)
+    * [异常处理](java/java-se/yi-chang-chu-li.md)
+    * [泛型](java/java-se/fan-xing.md)
+    * [！并发多线程](java/java-se/ff01-bing-fa-duo-xian-cheng.md)
 
