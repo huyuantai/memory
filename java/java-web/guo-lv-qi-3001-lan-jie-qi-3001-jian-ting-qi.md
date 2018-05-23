@@ -12,6 +12,8 @@
 过滤器：https://zsr.github.io/2017/11/15/tomcat-filter%E5%88%86%E6%9E%90/
 ![](/assets/20180411154043618)
 
+
+
 * Tomcat的Filter主要由Filter、FilterChain组成，FilterChain含Filter数组
 * 当执行FilterChain的doFilter，FilterChain调用第一个Filter的doFilter
 * 当第一个filter做完过滤操作后，它又会调用filterchain的doFilter方法，
