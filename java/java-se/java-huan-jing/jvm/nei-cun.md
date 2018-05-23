@@ -13,7 +13,7 @@ https://tech.meituan.com/jvm_optimize.html
 # 具体排查流程
 cpu高（应用超时，应用慢）->内存高->oom
 1.确认进程线程     jstack信息，是VM线程则下一步GC
-2.确认是否是GC问题  软件system gc，内存大小，代码泄漏
+2.确认是否是GC问题  GC日志(软件system gc，内存大小) jamp dump(代码泄漏)
 3.确认是否OOM
 
 #### 确认进程线程 [jstack信息]
