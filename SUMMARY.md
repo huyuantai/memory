@@ -18,6 +18,7 @@
         * [java故障排查](java/java-se/java-huan-jing/jvm/nei-cun.md)
         * [回收算法](java/java-se/java-huan-jing/jvm/hui-shou-suan-fa.md)
         * [GC](java/java-se/java-huan-jing/jvm/gc.md)
+        * [JVM 参数](java/java-se/java-huan-jing/jvm/jvm-can-shu.md)
       * [JVM 面试题](java/java-se/java-huan-jing/jvm-mian-shi-ti.md)
     * 基本数据类型
     * 面向对象
