@@ -27,7 +27,8 @@ https://blog.csdn.net/jijianshuai/article/details/77878673
 * 当第一个filter做完过滤操作后，它又会调用filterchain的doFilter方法，
 * 此时filterchain的当前filter已变为第二个filter，第二个filter又执行dofilter方法，直到Fiter执行完，再执行Servlet 的service方法
 
-从以上分析可以看到过滤器和拦截器实现的方式的不同. Filter是利用了方法的调用(入栈出栈)完成整个流程, 而Interceptor是利用了for循环完成了整个流程.
+# 滤器和拦截器实现的方式的不同. 
+> Filter是利用了方法的调用(入栈出栈)完成整个流程, 而Interceptor是利用了for循环完成了整个流程.
 Filter的实现比较占用栈空间, 在Filter多的情况下可能会有栈溢出的风险存在.
 Interceptor的实现逻辑更加的清晰简单
 Filter组件更加的通用, 只要支持java servlet的容器都可以使用, 而Interceptor必须依赖于Spring
