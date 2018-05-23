@@ -32,5 +32,6 @@ XX+UseCMSCompactAtFullCollection	在FULL GC的时候， 对年老代的压缩
 # 辅助日志
 -XX:+PrintGC
 -XX:+PrintGCDetails 打印日志
+OOM 生产日志dump文件
 
 
