@@ -32,8 +32,8 @@ this.beanDefinitionMap.put(beanName, beanDefinition);
 （先从缓存中获取getSingo，没有再用工厂创建，通过反射技术）
 
 3.（Spring MVC容器的创建）contextLoaderListener执行完，web.xml中的DispatcherServlet被创建，接着在DispatcherServlet创建Spring MVC容器
-
-
+Spring MVC容器会先查看是否存在根容器即（上一步的Spring 容器）
+如果窜至
 
 
 
