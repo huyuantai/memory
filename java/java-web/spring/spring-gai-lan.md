@@ -67,7 +67,7 @@ Spring MVC被创建时，会先创建RequestMappingHandlerMapping，然后scan�
 
 AbstractHandlerMethodMapping类！！
 
-url->
+url->RequestMappingInfo->
 
 第一个Map
 this.urlMap.add(pattern, mapping)
