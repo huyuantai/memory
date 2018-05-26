@@ -11,7 +11,7 @@
 使用案例
 
 # Spring 容器
-对非controller的Bean的创建与维护，由Web.xml
+对非controller的Bean的创建与维护，由Web.xml中的
 >@Component、@service、@repository 等等
 
 # Spring MVC容器
