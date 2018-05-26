@@ -14,5 +14,5 @@
 对非controller的Bean的创建与维护
 >@Component、@service、@repository 等等
 
-# Spring 容器
+# Spring MVC容器
 
