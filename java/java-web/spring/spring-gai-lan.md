@@ -87,7 +87,7 @@ HandlerMethod即为Handler，里面包含controll名和方法名
 
 # spring AOP
 成员
-
+jdk代理和cglib代理
 
 
 
