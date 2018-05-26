@@ -37,6 +37,7 @@ Spring MVC容器会先查看是否存在根容器即（上一步的Spring 容器
 如果不存在，则先创建根WebApplicationContext（即XmlWebApplicationContext）容器
 创建完后，Spring MVC容器也被放到ServletContext中，便于获取
 
+接着创建Bean，如Controller，HandlerMapping
 
 
 
