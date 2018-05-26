@@ -80,7 +80,7 @@ RequestMappingInfo对象-> HandlerMethod对象（里面包含beanName属性“He
 
 请求 根据url如“/hell/wel” 从urlMap中找到对应的 RequestMappingInfo对象A
 再用RequestMappingInfo对象A为key 从 handlerMethods map中，获取到HandlerMethod
-HandlerMethod即为Handler，里面包含controll名和方法民
+HandlerMethod即为Handler，里面包含controll名和方法名
 
 
 
