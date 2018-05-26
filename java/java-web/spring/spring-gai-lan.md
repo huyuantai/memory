@@ -65,4 +65,22 @@ container会放到servletcontext里面，每次reQuest从servletcontext找这个
 Spring MVC被创建时，会先创建RequestMappingHandlerMapping，然后scan扫描Contrllor，@RequestMapping的信息封装成RequestMappingInfo对象，
 将具体的方法封装成MethodHanler，然后存放到两个Map中
 
+AbstractHandlerMethodMapping类！！
+
+
+this.urlMap.add(pattern, mapping)
+“/hell/wel”-> RequestMappingInfo对象
+
+
+
+this.handlerMethods.put(mapping, newHandlerMethod);
+RequestMappingInfo对象-> HandlerMethod对象（里面包含beanName属性“HelloControl”，
+和Method对象（printWelcome方法）
+
+
+请求 根据url如“/hell/wel” 从urlMap中找到对应的 RequestMappingInfo对象A
+再用RequestMappingInfo对象A为key 从 handlerMethods map中，获取到HandlerMethod
+HandlerMethod即为Handler，里面包含controll名和方法民
+
+
 
