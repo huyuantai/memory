@@ -11,3 +11,5 @@
 使用案例
 
 # Spring 容器
+对非controller的Bean的创建与维护
+>@Component、@service、@
