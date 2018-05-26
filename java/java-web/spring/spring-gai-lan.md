@@ -30,3 +30,5 @@ this.beanDefinitionMap.put(beanName, beanDefinition);
 ```
 调用getBean，对Bean进行创建初始化
 
+
+
