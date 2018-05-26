@@ -31,6 +31,8 @@ this.beanDefinitionMap.put(beanName, beanDefinition);
 调用getBean，对读取BeanDefinition，对Bean进行创建初始化
 （先从缓存中获取getSingo，没有再用工厂创建，通过反射技术）
 
+3.（）
+
 
 
 
