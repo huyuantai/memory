@@ -21,5 +21,9 @@
 1.web容器提供ServletContext
 2.web容器启动时，web.xml的contextLoaderListener被触发，contextInitialized方法被调用，在这方法创建WebApplicationContext（实现类XmlWebApplicationContext）这就是spring的IoC容器，这个WebApplicationContext容器被放到ServletContext中，便于获取
 接着IOC容器通过scan扫描Bean定义信息存到BeanDefinition，并将这些
-BeanDefinition
+BeanDefinition,放到Map中，如下所示：
 
+```java
+private final Map<String, BeanDefinition> beanDefinitionMap = new ConcurrentHashMap<String, BeanDefinition>();
+this.beanDefinitionMap.put(beanName, beanDefinition); 
+```
