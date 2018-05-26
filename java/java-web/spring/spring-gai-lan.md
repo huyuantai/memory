@@ -31,7 +31,7 @@ this.beanDefinitionMap.put(beanName, beanDefinition);
 调用getBean，对读取BeanDefinition，对Bean进行创建初始化
 （先从缓存中获取getSingo，没有再用工厂创建，通过反射技术）
 
-3.（Spring MVC容器的创建）contextLoaderListener执行完，web.xml中的DispatcherServlet被创建，
+3.（Spring MVC容器的创建）contextLoaderListener执行完，web.xml中的DispatcherServlet被创建，接着在DispatcherServlet创建Spring MVC
 
 
 
