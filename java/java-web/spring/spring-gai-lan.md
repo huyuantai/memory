@@ -18,5 +18,5 @@
 对controller的Bean的创建与维护，由Web.xml中的DispatcherServlet加载创建容器
 
 # Spring 容器 与 Spring MVC 容器
-1.web应用提供ServletContext
+1.web容器提供ServletContext
 
