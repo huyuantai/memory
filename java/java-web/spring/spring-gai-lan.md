@@ -15,5 +15,5 @@
 >@Component、@service、@repository 等等
 
 # Spring MVC容器
-对controller的Bean的创建与维护，由Web.xml中的DispatcherServlet
+对controller的Bean的创建与维护，由Web.xml中的DispatcherServlet加载创建容器
 
