@@ -28,7 +28,7 @@ BeanDefinition,放到Map中，如下所示：
 private final Map<String, BeanDefinition> beanDefinitionMap = new ConcurrentHashMap<String, BeanDefinition>();
 this.beanDefinitionMap.put(beanName, beanDefinition); 
 ```
-调用getBean，对Bean进行创建初始化
+调用getBean，对读取BeanDefinition，对Bean进行创建初始化
 
 
 
