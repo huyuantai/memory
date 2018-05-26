@@ -63,6 +63,6 @@ container会放到servletcontext里面，每次reQuest从servletcontext找这个
 
 # Spring RequestMapping
 Spring MVC被创建时，会先创建RequestMappingHandlerMapping，然后scan扫描Contrllor，@RequestMapping的信息封装成RequestMappingInfo对象，
-将具体的方法封装成MethodHanler，
+将具体的方法封装成MethodHanler，然后存放到两个Map中
 
 
