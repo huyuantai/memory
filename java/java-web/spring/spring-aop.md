@@ -46,4 +46,4 @@ enhancer.setCallback(this);    获取真正的代理对象
 ```
   
   
-# JdkDynamicAopProxy和CglibAopProxy
+# spring AOP JdkDynamicAopProxy和CglibAopProxy
