@@ -26,6 +26,7 @@ AOP代理（AOP Proxy） 在Spring AOP中有两种代理方式，JDK动态代理
 # CGLIB代理 implements  MethodInterceptor 
 
 通过enhancer.setSuperclass(this.target.getClass());
+enhancer.setCallback(this);    获取真正的代理对象
 ```java
  /**  
      * 创建代理对象  
