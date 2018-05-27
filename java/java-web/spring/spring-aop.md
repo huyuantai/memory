@@ -10,4 +10,4 @@ AOP代理（AOP Proxy） 在Spring AOP中有两种代理方式，JDK动态代理
 
 
 # jdk代理 implements  InvocationHandler 
-# jdk代理 implements  InvocationHandler 
+# CGLIB代理 implements  InvocationHandler 
