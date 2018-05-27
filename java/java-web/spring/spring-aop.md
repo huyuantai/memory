@@ -9,5 +9,5 @@ AOP代理（AOP Proxy） 在Spring AOP中有两种代理方式，JDK动态代理
 织入：将通知的方法（增强方法） 植入 目标对象业务方法的过程
 
 
-# jdk代理 implements  InvocationHandler 
+# JDK代理 implements  InvocationHandler 
 # CGLIB代理 implements  InvocationHandler 
