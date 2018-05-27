@@ -10,6 +10,15 @@ AOP代理（AOP Proxy） 在Spring AOP中有两种代理方式，JDK动态代理
 
 
 # JDK代理 implements  InvocationHandler 
-
+```JAVA
+/** 
+     * 获取目标对象的代理对象 
+     * @return 代理对象 
+     */  
+    public Object getProxy(){  
+        return Proxy.newProxyInstance(Thread.currentThread().getContextClassLoader(),   
+                this.target.getClass().getInterfaces(),this);  
+    }  
+```
 
 # CGLIB代理 implements  MethodInterceptor  
