@@ -21,9 +21,9 @@ org.springframework.aop.aspectj.AspectJPointcutAdvisor
 
 
 # MVC
-1. 用户向服务器发送请求，请求被Spring 前端控制Servelt DispatcherServlet捕获；
-2. DispatcherServlet对请求URL进行解析，得到请求资源标识符（URI）。然后根据该URI，调用HandlerMapping获得该Handler配置的所有相关
-的对象（包括Handler对象以及Handler对象对应的拦截器），最后以HandlerExecutionChain对象的形式返回；
+DispatcherServlet
+HandlerMapping 获取HandlerExecutionChain
+（包括Handler对象以及Handler对象对应的拦截器），最后以对象的形式返回；
 3. DispatcherServlet 根据获得的Handler，选择一个合适的HandlerAdapter。（附注：如果成功获得HandlerAdapter后，此时将开始执行拦截器
 的preHandler(...)方法）
 4. 提取Request中的模型数据，填充Handler入参，开始执行Handler（Controller)。 在填充Handler的入参过程中，根据你的配置，Spring将帮你
