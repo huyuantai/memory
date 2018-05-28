@@ -25,6 +25,8 @@ DispatcherServlet
 HandlerMapping 获取HandlerExecutionChain（Handler对象以及Handler对象对应的拦截器）
 HandlerAdapter ModelAndView
 ModelAndView 选择 ViewResolver
+ViewResolver 结合Model和View，来渲染视图
+
 的preHandler(...)方法）
 4. 提取Request中的模型数据，填充Handler入参，开始执行Handler（Controller)。 在填充Handler的入参过程中，根据你的配置，Spring将帮你
 做一些额外的工作：
