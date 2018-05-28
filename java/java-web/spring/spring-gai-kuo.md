@@ -1,6 +1,6 @@
 # 流程
 
 IOC
-aop
+AOP
 MVC
 Mapping
