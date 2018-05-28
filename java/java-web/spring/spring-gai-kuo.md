@@ -17,3 +17,4 @@ BeanName的存储在List中，BeanDefinition的存储在Map中
 2.getBean()返回的是代理对象
 
 >org.springframework.aop.config.internalAutoProxyCreator
+org.springframework.aop.aspectj.AspectJPointcutAdvisor
