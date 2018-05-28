@@ -6,7 +6,7 @@ Mapping
 
 # IOC
 1.AbstractApplicationContext的refresh()，将Bean信息转化为BeanDefinition，存储到Map中
-2.finishBeanFactoryInitialization()的getBean()
+2.refresh中finishBeanFactoryInitialization()的getBean()
 
 
 转化：Xml信息-->Dodument-->BeanDefinition
