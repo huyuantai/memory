@@ -5,7 +5,7 @@ MVC
 Mapping
 
 # IOC
-1.将Bean信息转化为
+1.将Bean信息转化为BeanDefinition，存储到Map中
 
 
 转化：Xml信息-->Dodument-->BeanDefinition
