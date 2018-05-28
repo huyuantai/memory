@@ -14,3 +14,4 @@ BeanName的存储在List中，BeanDefinition的存储在Map中
 
 # AOP
 1.读取xml时用delegate.parseCustomElement(ele)方法解析，也是转成BeanDefinition放到Map中，
+2.getBean()返回的是代理对象
