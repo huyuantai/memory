@@ -6,4 +6,4 @@ Mapping
 
 # IOC
 转化：Xml信息-->Dodument-->BeanDefinition
-BeanName的存储在List中
+BeanName的存储在List中，
