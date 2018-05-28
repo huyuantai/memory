@@ -22,7 +22,7 @@ org.springframework.aop.aspectj.AspectJPointcutAdvisor
 
 # MVC
 DispatcherServlet
-HandlerMapping 获取HandlerExecutionChain
+HandlerMapping 获取HandlerExecutionChain（Handler对象以及Handler对象对应的拦截器）
 （包括Handler对象以及Handler对象对应的拦截器），最后以对象的形式返回；
 3. DispatcherServlet 根据获得的Handler，选择一个合适的HandlerAdapter。（附注：如果成功获得HandlerAdapter后，此时将开始执行拦截器
 的preHandler(...)方法）
