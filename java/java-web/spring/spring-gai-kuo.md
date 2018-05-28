@@ -5,4 +5,4 @@ MVC
 Mapping
 
 # IOC
-xml信息-->Doument
+xml信息-->Dodument
