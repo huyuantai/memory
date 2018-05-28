@@ -14,3 +14,4 @@ BeanName的存储在List中，BeanDefinition的存储在Map中
 
 # AOP
 1.读取xml时用
+delegate.parseCustomElement(ele)
