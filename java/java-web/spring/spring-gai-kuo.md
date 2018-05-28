@@ -5,4 +5,5 @@ MVC
 Mapping
 
 # IOC
-Xml信息-->Dodument-->BeanDefinition
+转化：Xml信息-->Dodument-->BeanDefinition
+
