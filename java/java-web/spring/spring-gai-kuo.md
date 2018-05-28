@@ -13,4 +13,4 @@ BeanDefinition，通过反射实例化
 BeanName的存储在List中，BeanDefinition的存储在Map中
 
 # AOP
-
+1.读取xml时用
