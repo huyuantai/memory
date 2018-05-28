@@ -4,7 +4,7 @@ AOP
 MVC
 Mapping
 
-# IOC（存）
+# IOC（存BeanDefinition到Map）
 1.AbstractApplicationContext的refresh()，将Bean信息转化为BeanDefinition，存储到Map中
 2.refresh中finishBeanFactoryInitialization()的getBean()，从Map中获取
 BeanDefinition，通过反射实例化
