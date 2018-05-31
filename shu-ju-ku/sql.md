@@ -1,4 +1,4 @@
-聚合函数：Count Min AG Max Sum
+聚合函数：Count Min AG Max Sum（call me ag 妈妈桑）
 
 
 –COUNT：统计行数量
