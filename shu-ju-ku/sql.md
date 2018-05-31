@@ -51,6 +51,12 @@ B.SNO='109' AND B.CNO='3-105'
 
 
 查询选修某课程的同学人数多于5人的教师姓名
+SELECT A.TNAME FROM TEACHER A JOIN (COURSE B, SCORE C) ON (A.TNO=B.TNO AND B.CNO=C.CNO) 
+
+GROUP BY C.CNO HAVING COUNT(C.CNO)>5;
+另一种解法：select tname from teacher where tno in(select x.tno from course x,score y where 
+
+x.cno=y.cno group by x.tno having count(x.tno)>5);
 
 
 
