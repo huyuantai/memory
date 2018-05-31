@@ -24,3 +24,5 @@ group by name 一个字段
 ![](/assets/162343319172617.jpg)
 
 group by name,number，我们可以把name和number 看成一个整体字段
+
+group by 要得到一条记录
