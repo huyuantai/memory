@@ -30,6 +30,21 @@ group by 要得到一条记录
 
 # 同表查询
 同表1 where exist （同表2）
+同表1 where exist （同表2）
+同表1 where exist （同表2）
+同表1 where exist （同表2）
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
