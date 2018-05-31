@@ -20,6 +20,7 @@
 > 5、执行ORDER BY排序
 
 # Group By 原理
+group by name 一个字段
 ![](/assets/162343319172617.jpg)
 
 group by name,number，我们可以把name和number 看成一个整体字段
