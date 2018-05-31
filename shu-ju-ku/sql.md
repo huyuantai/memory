@@ -18,3 +18,6 @@
 > 3、执行WITH ROLLUP/CUBE生成统计分析数据记录并加入中间分组表
 > 4、执行HAVING筛选中间分组表
 > 5、执行ORDER BY排序
+
+# Group By 原理
+![](/assets/162343319172617.jpg)
