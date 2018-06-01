@@ -5,4 +5,4 @@
 3.实现Callable接口
 4.ThreadPoolExecutor来获取线程
 
-同步有几种实现方法
+同步有几种实现
