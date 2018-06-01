@@ -16,4 +16,4 @@ voliate 单变量
 
 # wait与notify+锁  
 生产者/消费者
-join() 
+join() A线程等待 B线程执行完后 再执行
