@@ -22,7 +22,9 @@ Thread t2 {
    }
 } 
 
-Thread t3
+Thread t3{
+
+}
 t1.start();  
 t1.join();  
 t2.start();  
