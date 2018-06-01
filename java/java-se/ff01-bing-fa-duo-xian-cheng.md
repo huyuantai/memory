@@ -1,4 +1,4 @@
-CyclicBarrier 是起跑线
+CyclicBarrier 是起跑线，N个线程准备好了，再执行
 CountDownLatch  N个线程执行完，再主线程执行
 
 
