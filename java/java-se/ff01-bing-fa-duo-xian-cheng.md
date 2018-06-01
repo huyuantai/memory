@@ -23,7 +23,9 @@ Thread t2 {
 } 
 
 Thread t3{
-
+   run(){
+     t2.join();
+   }
 }
 t1.start();  
 t1.join();  
