@@ -15,7 +15,7 @@ t3.join();
 
 #### 线程run()内join
 ```java
-定义Thread t1   
+定义Thread t1;   
 Thread t2 {
    run(){
      t1.join();
