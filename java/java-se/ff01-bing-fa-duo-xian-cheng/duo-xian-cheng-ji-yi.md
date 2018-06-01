@@ -6,3 +6,4 @@
 4.ThreadPoolExecutor来获取线程
 
 # 同步有几种实现
+synchronized同步方法
