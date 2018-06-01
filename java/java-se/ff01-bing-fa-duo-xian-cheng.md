@@ -1,5 +1,5 @@
 CyclicBarrier 是起跑线
-
+CountDownLatch  N个线程执行完，再主线程执行
 
 
 
