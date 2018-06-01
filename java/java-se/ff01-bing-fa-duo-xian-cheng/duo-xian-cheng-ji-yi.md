@@ -7,3 +7,4 @@
 
 # 同步有几种实现
 synchronized同步方法/同步块
+wait与notify 
