@@ -14,7 +14,6 @@ t3.join();
 ```
 
 #### 线程run()内join
-
 ```java
 Thread t1 = new Thread(new Runner("A"));  
 Thread t2 = new Thread(new Runner("B"));  
