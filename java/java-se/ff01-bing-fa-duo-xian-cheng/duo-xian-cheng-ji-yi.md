@@ -12,3 +12,7 @@ Lock/ReenreantLock
 线程封闭/局部变量
 ThreadLocal
 voliate 单变量
+
+
+# wait与notify+锁  
+生产者/消费者
