@@ -9,3 +9,4 @@
 synchronized同步方法/同步块
 wait与notify 
 Lock/ReenreantLock
+线程封闭/局部变量
