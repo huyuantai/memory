@@ -7,7 +7,7 @@
 
 # 同步有几种实现
 synchronized同步方法/同步块
-wait与notify 
+wait与notify（与锁结合） 
 Lock/ReenreantLock
 线程封闭/局部变量
 ThreadLocal
