@@ -11,4 +11,4 @@ wait与notify（与锁结合）
 Lock/ReenreantLock
 线程封闭/局部变量
 ThreadLocal
-voliate
+voliate 单变量
