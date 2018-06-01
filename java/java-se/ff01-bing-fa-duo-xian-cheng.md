@@ -36,5 +36,7 @@ t1.start();
 while（条件）
    await();
 
+执行条件成立后
+   notifyAll();
 
 
