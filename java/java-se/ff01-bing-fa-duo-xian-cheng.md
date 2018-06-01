@@ -31,3 +31,9 @@ t2.start();
 t1.start();  
 ```
 
+# join 的原理
+获锁
+while（条件）
+
+
+
