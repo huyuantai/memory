@@ -15,7 +15,7 @@ t3.join();
 
 #### 线程run()内join
 ```java
-Thread t1 = new Thread(new Runner("A"));  
+定义Thread t1   
 Thread t2 = new Thread(new Runner("B"));  
 Thread t3 = new Thread(new Runner("C"));  
 t1.start();  
