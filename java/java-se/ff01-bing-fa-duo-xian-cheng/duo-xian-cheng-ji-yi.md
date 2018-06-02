@@ -1,5 +1,5 @@
-synchronized   BLOCKED  waiting for monitor
-sleep()
+synchronized   BLOCKED            waiting for monitor
+sleep()        TIMED_WAITING
 wait()
 
 
