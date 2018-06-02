@@ -1,6 +1,11 @@
-|  |  |  |
+| synchronized    |  |  |
 | :--- | :--- | :--- |
-|  |  |  |
+| sleep\(\) |  |  |
+| sleep\(\) |  |  |
+| wait\(\)|  |  |
+
+
+
 
 synchronized   BLOCKED            waiting for monitor
 
@@ -8,7 +13,7 @@ synchronized   BLOCKED            waiting for monitor
 
   
 sleep\(\)        TIMED\_WAITING  
-wait\(\)
+
 
 # 进程和线程有什么区别
 
