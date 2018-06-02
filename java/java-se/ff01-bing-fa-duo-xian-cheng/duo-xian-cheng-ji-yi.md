@@ -1,13 +1,13 @@
-| synchronized    |  |  |
+| |  |  |
 | :--- | :--- | :--- |
-| sleep\(\) |  |  |
+| synchronized    | BLOCKED |waiting for monitor|
 | sleep\(\) |  |  |
 | wait\(\)|  |  |
 
 
 
 
-synchronized   BLOCKED            waiting for monitor
+synchronized               
 
 
 
