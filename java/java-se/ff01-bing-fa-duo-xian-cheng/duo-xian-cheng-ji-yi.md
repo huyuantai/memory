@@ -1,4 +1,4 @@
-| |  |  |
+|方法 | 状态 | 条件 |
 | :--- | :--- | :--- |
 | synchronized    | BLOCKED |waiting for monitor|
 | sleep\(\) | TIMED\_WAITING   | waiting on condition |
