@@ -3,16 +3,7 @@
 | synchronized    | BLOCKED |waiting for monitor|
 | sleep\(\) | TIMED\_WAITING   | waiting on condition |
 | wait\(\)| WAITING (on object monitor) | in Object.wait() |
-
-
-
-
-synchronized               
-
-
-
-  
-sleep\(\)        TIMED\_WAITING  
+ 
 
 
 # 进程和线程有什么区别
