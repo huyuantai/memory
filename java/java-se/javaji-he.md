@@ -13,4 +13,4 @@ List:ArrayList、LinkedList
 
 ArrayList 底层是数组存储元素
 
-LinkedList 底层是链表
+LinkedList 底层是链表存储元素
