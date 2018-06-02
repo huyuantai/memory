@@ -1,8 +1,8 @@
 | |  |  |
 | :--- | :--- | :--- |
 | synchronized    | BLOCKED |waiting for monitor|
-| sleep\(\) |  |  |
-| wait\(\)|  |  |
+| sleep\(\) | TIMED\_WAITING   | waiting on condition |
+| wait\(\)| WAITING (on object monitor) |  |
 
 
 
