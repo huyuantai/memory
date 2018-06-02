@@ -1,4 +1,4 @@
-synchronized   BLOCKED
+synchronized   BLOCKED  waiting for monitor
 sleep()
 wait()
 
