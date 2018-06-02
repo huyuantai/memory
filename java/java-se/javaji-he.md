@@ -18,3 +18,6 @@ LinkedList 底层是链表存储元素
 Set：HashSet、LinkedHashSet、TreeSet（SortSet）
 
 Queue：
+
+Map：HashMap、TreeMap
+
