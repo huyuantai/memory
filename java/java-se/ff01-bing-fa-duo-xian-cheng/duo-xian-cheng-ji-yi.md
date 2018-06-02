@@ -1,4 +1,4 @@
-synchronized 
+synchronized   BLOCKED
 sleep()
 wait()
 
