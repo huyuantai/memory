@@ -16,3 +16,5 @@ ArrayList 底层是数组存储元素  插入删除快
 LinkedList 底层是链表存储元素  
 
 Set：HashSet、LinkedHashSet、TreeSet（SortSet）
+
+Queue：
