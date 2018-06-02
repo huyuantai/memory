@@ -1,3 +1,8 @@
+synchronized 
+sleep()
+wait()
+
+
 # 进程和线程有什么区别
 
 
