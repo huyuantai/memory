@@ -19,5 +19,5 @@ Set：HashSet、LinkedHashSet、TreeSet（SortSet）
 
 Queue：
 
-Map：HashMap、TreeMap
+Map：HashMap、TreeMap、ConcurrentHashMap
 
