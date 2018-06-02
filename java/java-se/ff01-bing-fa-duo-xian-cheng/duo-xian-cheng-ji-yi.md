@@ -2,7 +2,7 @@
 | :--- | :--- | :--- |
 | synchronized    | BLOCKED |waiting for monitor|
 | sleep\(\) | TIMED\_WAITING   | waiting on condition |
-| wait\(\)| WAITING (on object monitor) |  |
+| wait\(\)| WAITING (on object monitor) | in Object.wait() |
 
 
 
