@@ -11,4 +11,4 @@
 
 List:ArrayList、LinkedList
 
-ArrayList 底层是数组 数组存储元素
+ArrayList 底层是数组存储元素
