@@ -17,6 +17,7 @@ newScheduledThreadPool
 
 
 # 拒绝策略
+RejectedExecutionHandler
 AbortPolicy：直接抛出异常。
 
 CallerRunsPolicy：只用调用者所在线程来运行任务。
