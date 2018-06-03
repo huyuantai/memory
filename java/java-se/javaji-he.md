@@ -1,4 +1,4 @@
-### Collection接口
+### 继承Collection接口
 1.List
 2.Set
 3.Queue
