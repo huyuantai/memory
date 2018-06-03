@@ -8,6 +8,10 @@ newCachedThreadPool
 newScheduledThreadPool
 适用：周期性执行任务的场景
 
+
+# 队列
+
+
 # 拒绝策略
 AbortPolicy：直接抛出异常。
 
