@@ -17,7 +17,7 @@ newScheduledThreadPool
 
 
 
-FixedThreadPool、newSingleThreadExecutor
+FixedThreadPool、newSingleThreadExecutor 都是有无界的队列，保证新任务都能够放入队列，不会被拒绝；缺点和FixedThreadPool相同，当处理任务无限等待的时候会造成内存问题。
 
 
 # 队列
