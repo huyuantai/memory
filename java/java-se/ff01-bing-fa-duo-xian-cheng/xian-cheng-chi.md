@@ -1,5 +1,6 @@
 # 四种线程池
 newSingleThreadExecutor
+一个任务一个任务执行的场景
 newFixedThreadPool
 执行长期的任务，性能好很多
 newCachedThreadPool
