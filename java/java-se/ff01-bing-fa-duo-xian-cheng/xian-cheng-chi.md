@@ -12,7 +12,7 @@ newScheduledThreadPool
 # 队列
 无界队列、有界队列、同步队列
 无界队列：LinkedBlockingQueue
-有界队列：有界的LinkedBlockingQueue
+有界队列：有界的LinkedBlockingQueue、
 
 
 # 拒绝策略
