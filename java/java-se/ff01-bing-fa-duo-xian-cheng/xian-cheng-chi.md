@@ -1,3 +1,6 @@
+http://blog.163.com/wm_at163/blog/static/132173490201242984518354/
+
+
 # 四种线程池
 newSingleThreadExecutor
 一个任务一个任务执行的场景
