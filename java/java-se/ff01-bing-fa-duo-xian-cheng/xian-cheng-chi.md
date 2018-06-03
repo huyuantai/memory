@@ -3,7 +3,7 @@ newSingleThreadExecutor
 newFixedThreadPool
 
 newCachedThreadPool
-
+执行很多短期异步的小程序或者负载较轻的服务器
 newScheduledThreadPool
 适用：周期性执行任务的场景
 
