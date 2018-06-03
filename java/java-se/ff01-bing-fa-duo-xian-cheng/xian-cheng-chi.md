@@ -16,6 +16,10 @@ newScheduledThreadPool
 适用：周期性执行任务的场景
 
 
+
+FixedThreadPool、newSingleThreadExecutor
+
+
 # 队列
 无界队列、有界队列、同步队列
 无界队列：LinkedBlockingQueue
