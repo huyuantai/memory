@@ -43,6 +43,10 @@ ArrayList更适合检索和在末尾插入或删除（数组的特性）。
 # Set
 > HashSet、LinkedHashSet、TreeSet（SortSet）
 
+HashSet中的元素是没有被排序
+
+
+
 # Queue
 > Queue
 
