@@ -12,7 +12,7 @@
 List
 > ArrayList、LinkedList
 
-> ArrayList 底层是数组存储元素  插入删除快
+> ArrayList 底层是数组存储元素  
 
 > LinkedList 底层是链表存储元素  
 
