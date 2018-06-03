@@ -9,7 +9,8 @@
 
 # List、Queue、Set、Map
 
-List:ArrayList、LinkedList
+List
+> ArrayList、LinkedList
 
 ArrayList 底层是数组存储元素  插入删除快
 
