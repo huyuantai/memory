@@ -16,7 +16,17 @@ List
 
 > LinkedList 底层是链表存储元素  
 
-ArrayList get(int index) : O(1) 
+get(int
+ index) : O(1) <---  ArrayList<E>的主要优点
+add(E
+ element) : 基本是O(1) , 因为动态扩容的关系，最差时是 O(n) 
+add(int
+ index, E element) : 基本是O( n - index) , 因为动态扩容的关系，最差时是 O(n) 
+remove(int
+ index) : O(n - index) (例如，移除最后一个元素，是 O(1))
+Iterator.remove() : O(n - index)
+ListIterator.add(E
+ element) : O(n - index)
 
 
 
