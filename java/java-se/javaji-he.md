@@ -55,6 +55,6 @@ TreeSet是树形集是一个有序的Set，其底层是一颗树
 # Map
 > HashMap、TreeMap、ConcurrentHashMap
 
-
+HashMap是无序
 LinkedHashMap继承自HashMap，它主要是用链表实现来扩展HashMap类，HashMap中条目是没有顺序的，但是在LinkedHashMap中元素既可以按照它们插入图的顺序排序，也可以按它们最后一次被访问的顺序排序
 
