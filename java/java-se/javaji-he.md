@@ -28,8 +28,7 @@ ListIterator.add(E element) : O(n - index)
 
 ##### LinkedList
 get(int index) : O(n)
-add(E
- element) : O(1)
+add(E element) : O(1)
 add(int
  index, E element) : O(n)
 remove(int
