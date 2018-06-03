@@ -32,8 +32,7 @@ add(E element) : O(1)
 add(int index, E element) : O(n)
 remove(int index) : O(n)
 Iterator.remove() : O(1) <--- LinkedList<E>的主要优点
-ListIterator.add(E
- element) is O(1) <---  LinkedList<E>的主要优点
+ListIterator.add(E element) is O(1) <---  LinkedList<E>的主要优点
 
 
 
