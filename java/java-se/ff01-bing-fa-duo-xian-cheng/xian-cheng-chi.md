@@ -1,3 +1,4 @@
+newSingleThreadExecutor
 newCachedThreadPool
 newFixedThreadPool
 newScheduledThreadPool
