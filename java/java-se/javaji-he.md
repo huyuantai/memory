@@ -32,6 +32,6 @@ ListIterator.add(E element) : O(n - index)
 # Queue
 > Queue
 
-Map
+# Map
 > HashMap、TreeMap、ConcurrentHashMap
 
