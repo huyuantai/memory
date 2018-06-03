@@ -16,8 +16,7 @@ newScheduledThreadPool
 同步队列：SynchronousQueue
 
 
-# 拒绝策略
-RejectedExecutionHandler
+# 拒绝策略 RejectedExecutionHandler
 AbortPolicy：直接抛出异常。
 
 CallerRunsPolicy：只用调用者所在线程来运行任务。
