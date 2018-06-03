@@ -50,6 +50,7 @@ TreeSet是树形集是一个有序的Set，其底层是一颗树
 
 # Queue
 > Queue
+接口Deque，是一个扩展自Queue的双端队列
 
 # Map
 > HashMap、TreeMap、ConcurrentHashMap
