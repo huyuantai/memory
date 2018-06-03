@@ -44,7 +44,7 @@ ArrayList更适合检索和在末尾插入或删除（数组的特性）。
 > HashSet、LinkedHashSet、TreeSet（SortSet）
 
 HashSet中的元素是没有被排序
-
+LinkedHashSet是用一个链表实现来扩展HashSet类，它支持对规则集内的元素排序
 
 
 # Queue
