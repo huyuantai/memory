@@ -1,7 +1,7 @@
 # 四种线程池
 newSingleThreadExecutor
 newFixedThreadPool
-
+执行长期的任务，性能好很多
 newCachedThreadPool
 执行很多短期异步的小程序或者负载较轻的服务器
 newScheduledThreadPool
