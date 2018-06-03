@@ -34,7 +34,8 @@ remove(int index) : O(n)
 Iterator.remove() : O(1) <--- LinkedList<E>的主要优点
 ListIterator.add(E element) is O(1) <---  LinkedList<E>的主要优点
 
-LinkedList更适合从中间插入或者删除（链表的特性）。 ArrayList更适合检索和在末尾插入或删除（数组的特性）。
+LinkedList更适合从中间插入或者删除
+ArrayList更适合检索和在末尾插入或删除（数组的特性）。
 
 
 
