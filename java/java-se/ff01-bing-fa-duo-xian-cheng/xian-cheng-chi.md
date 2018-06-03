@@ -17,7 +17,7 @@ newScheduledThreadPool
 无界队列：LinkedBlockingQueue
 有界队列：有界的LinkedBlockingQueue、有界的ArrayBlockingQueue
 
-同步队列：SynchronousQueue 生产者和消费者互相等待对方，握手，然后一起离开，不存数据，调用peek()方法来看队列中是否有数据元素，因为数据元素只有当你试着取走的时候才可能存在
+同步队列：SynchronousQueue 生产者和消费者互相等待对方，握手，然后一起离开，不存数据，不能调用peek()方法来看队列中是否有数据元素，因为数据元素只有当你试着取走的时候才可能存在
 
 
 # 拒绝策略 RejectedExecutionHandler
