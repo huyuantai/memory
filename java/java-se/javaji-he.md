@@ -16,6 +16,7 @@
 
 > LinkedList 底层是链表存储元素  
 
+##### ArrayList
 get(int index) : O(1) <---  ArrayList<E>的主要优点
 add(E element) : 基本是O(1) , 因为动态扩容的关系，最差时是 O(n) 
 add(int index, E element) : 基本是O( n - index) , 要将index后面的元素一个一个往后移动位置，所以是O( n - index)
