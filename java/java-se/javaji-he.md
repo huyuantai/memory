@@ -58,3 +58,9 @@ TreeSet是树形集是一个有序的Set，其底层是一颗树
 HashMap是无序
 LinkedHashMap继承自HashMap，它主要是用链表实现来扩展HashMap类，HashMap中条目是没有顺序的，但是在LinkedHashMap中元素既可以按照它们插入图的顺序排序，也可以按它们最后一次被访问的顺序排序
 
+TreeMap基于红黑树数据结构的实现，键值可以使用Comparable或Comparator接口来排序。TreeMap继承自AbstractMap，同时实现了接口NavigableMap，而接口NavigableMap则继承自SortedMap。SortedMap是Map的子接口，使用它可以确保图中的条目是排好序的。
+
+作者：尘语凡心
+链接：https://www.jianshu.com/p/63e76826e852
+來源：简书
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
