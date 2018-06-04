@@ -14,6 +14,7 @@
       * [Spring 概括](java/java-web/spring/spring-gai-kuo.md)
     * [过滤器、拦截器、监听器](java/java-web/guo-lv-qi-3001-lan-jie-qi-3001-jian-ting-qi.md)
     * [Spring Cloud](java/java-web/spring-cloud.md)
+      * [微服务设计原则](java/java-web/spring-cloud/wei-fu-wu-she-ji-yuan-ze.md)
       * Spring Cloud 各组件概览
   * [Java SE](java/java-se.md)
     * [Java 环境](java/java-se/java-huan-jing.md)
