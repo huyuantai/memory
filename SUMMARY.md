@@ -16,6 +16,7 @@
     * [Spring Cloud](java/java-web/spring-cloud.md)
       * [微服务设计原则](java/java-web/spring-cloud/wei-fu-wu-she-ji-yuan-ze.md)
       * [Spring Cloud 各组件概览](java/java-web/spring-cloud/spring-cloud-ge-zu-jian-gai-lan.md)
+    * [idea 注册码](java/java-web/idea-zhu-ce-ma.md)
   * [Java SE](java/java-se.md)
     * [Java 环境](java/java-se/java-huan-jing.md)
       * [JDK、JRE、JVM](java/java-se/java-huan-jing/jdkjrejvm.md)
