@@ -3,7 +3,7 @@ https://segmentfault.com/a/1190000008394155
 https://zhuanlan.zhihu.com/p/22882522
 
 # Executor 类图
-
+![](/assets/776259-20160426201537486-1323529733.png)
 
 
 
