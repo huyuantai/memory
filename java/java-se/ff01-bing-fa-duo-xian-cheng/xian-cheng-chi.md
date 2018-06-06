@@ -5,7 +5,7 @@ http://www.cnblogs.com/dolphin0520/p/3932934.html
 
 （内存不足）和线程泄漏
 
-内存不足 oom
+队列太多任务oom
 线程数太大 oom
 
 
