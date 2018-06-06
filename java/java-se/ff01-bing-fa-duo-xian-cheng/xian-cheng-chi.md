@@ -3,7 +3,10 @@ https://segmentfault.com/a/1190000008394155
 https://www.cnblogs.com/dolphin0520/p/3932921.html
 http://www.cnblogs.com/dolphin0520/p/3932934.html
 
-死锁、资源不足（内存不足）和线程泄漏
+（内存不足）和线程泄漏
+
+内存不足oom
+线程数太大 oom
 
 
 Executor框架实现了工作单元与执行单元的分离。
