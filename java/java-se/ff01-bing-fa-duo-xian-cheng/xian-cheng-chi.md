@@ -29,9 +29,11 @@ Executors.newCachedThreadPool()就使用了SynchronousQueue，这个线程池根
 
 newScheduledThreadPool：周期性执行任务的场景
 
-
-
 FixedThreadPool、newSingleThreadExecutor 都是有无界的队列，保证新任务都能够放入队列，不会被拒绝；缺点：当处理任务无限等待的时候会造成内存问题。
+
+
+handle:定义处理被拒绝任务的策略，默认使用ThreadPoolExecutor.AbortPolicy,任务被拒绝时将抛出RejectExecutorException
+
 
 
 # 队列
