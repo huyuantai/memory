@@ -3,6 +3,12 @@ https://segmentfault.com/a/1190000008394155
 https://www.cnblogs.com/dolphin0520/p/3932921.html
 http://www.cnblogs.com/dolphin0520/p/3932934.html
 
+
+线程池监控超时
+http://www.voidcn.com/article/p-vfishuxg-brg.html
+
+
+
 （内存不足）和线程泄漏
 
 队列太多任务oom
