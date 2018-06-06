@@ -1,6 +1,14 @@
 http://blog.163.com/wm_at163/blog/static/132173490201242984518354/
 https://segmentfault.com/a/1190000008394155
 https://zhuanlan.zhihu.com/p/22882522
+
+# Executor 类图
+
+
+
+
+
+
 # 四种线程池
 > 记忆：单个固定的缓存，定时（更新）
 
