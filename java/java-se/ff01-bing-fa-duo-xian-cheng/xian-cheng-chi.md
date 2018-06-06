@@ -2,6 +2,9 @@ http://blog.163.com/wm_at163/blog/static/132173490201242984518354/
 https://segmentfault.com/a/1190000008394155
 https://zhuanlan.zhihu.com/p/22882522
 
+Executor框架实现了工作单元与执行单元的分离。
+
+
 # Executor 类图
 ![](/assets/776259-20160426201537486-1323529733.png)
 
