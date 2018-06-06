@@ -8,8 +8,6 @@ newCachedThreadPool:执行很多短期异步的小程序或者负载较轻的服
 
 Executors.newCachedThreadPool()就使用了SynchronousQueue，这个线程池根据需要（新任务到来时）创建新的线程，如果有空闲线程则会重复使用，线程空闲了60秒后会被回收
 
-
-
 newScheduledThreadPool：周期性执行任务的场景
 
 
