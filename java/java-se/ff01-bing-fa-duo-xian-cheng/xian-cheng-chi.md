@@ -10,8 +10,7 @@ Executors.newCachedThreadPool()就使用了SynchronousQueue，这个线程池根
 
 
 
-newScheduledThreadPool
-适用：周期性执行任务的场景
+newScheduledThreadPool：周期性执行任务的场景
 
 
 
