@@ -24,6 +24,8 @@ FixedThreadPool、newSingleThreadExecutor 都是有无界的队列，保证新�
 
 
 # 拒绝策略 RejectedExecutionHandler
+抛异常、不处理、调用者线程、丢弃队列最近任务再执行
+
 AbortPolicy：直接抛出异常。
 
 CallerRunsPolicy：只用调用者所在线程来运行任务。
