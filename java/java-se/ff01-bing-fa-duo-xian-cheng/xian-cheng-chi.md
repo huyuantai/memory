@@ -6,8 +6,9 @@ newSingleThreadExecutor:一个任务一个任务执行的场景
 newFixedThreadPool:执行长期的任务，性能好很多
 
 
-newCachedThreadPool
-执行很多短期异步的小程序或者负载较轻的服务器
+newCachedThreadPool:执行很多短期异步的小程序或者负载较轻的服务器
+
+
 Executors.newCachedThreadPool()就使用了SynchronousQueue，这个线程池根据需要（新任务到来时）创建新的线程，如果有空闲线程则会重复使用，线程空闲了60秒后会被回收
 
 
