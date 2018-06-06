@@ -2,6 +2,8 @@ http://blog.163.com/wm_at163/blog/static/132173490201242984518354/
 https://segmentfault.com/a/1190000008394155
 https://zhuanlan.zhihu.com/p/22882522
 # 四种线程池
+> 记忆：单个固定的缓存，定时（更新）
+
 newSingleThreadExecutor:一个任务一个任务执行的场景
 newFixedThreadPool:执行长期的任务，性能好很多
 newCachedThreadPool:执行很多短期异步的小程序或者负载较轻的服务器
