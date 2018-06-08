@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [每天必看](mei-tian-bi-kan.md)
   * [学习各方面](mei-tian-bi-kan/xue-xi-ge-fang-mian.md)
+  * [心理情绪](mei-tian-bi-kan/xin-li-qing-xu.md)
 * [心理情绪](xin-li-qing-xu.md)
 * [java 教程网站](chapter1.md)
 * [设计模式](she-ji-mo-shi.md)
