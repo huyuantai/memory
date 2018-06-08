@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* [每天必看](mei-tian-bi-kan.md)
 * [心理情绪](xin-li-qing-xu.md)
 * [java 教程网站](chapter1.md)
 * [设计模式](she-ji-mo-shi.md)
@@ -42,5 +43,5 @@
   * [Sql](shu-ju-ku/sql.md)
 * [分布式](fen-bu-shi.md)
   * [分布式事务](fen-bu-shi/fen-bu-shi-shi-wu.md)
-  * rabbitmq
+  * [rabbitmq](fen-bu-shi/rabbitmq.md)
 
