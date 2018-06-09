@@ -19,5 +19,6 @@ acceptCount="700"// 指定当所有可以使用的处理请求的线程数都被
 
 http://blog.51cto.com/53cto/1715678
 http://blog.51cto.com/lookingdream/1889636
+https://my.oschina.net/zfscofield/blog/1629215
 
 好机器的 Tomcat 跑 500 并发还是能做到的。那么每秒钟处理 3 万个请求，只需要一个线程每秒钟能处理 60 个请求。16ms 处理一个请求就行
