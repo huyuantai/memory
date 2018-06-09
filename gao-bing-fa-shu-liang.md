@@ -16,3 +16,5 @@ maxThreads="1000" 最大并发数
 minSpareThreads="100"///初始化时创建的线程数
 maxSpareThreads="500"///一旦创建的线程超过这个值，Tomcat就会关闭不再需要的socket线程。
 acceptCount="700"// 指定当所有可以使用的处理请求的线程数都被使用时，可以放到处理队列中的请求数，超过这个数的请求将不予处理
+
+http://blog.51cto.com/53cto/1715678
