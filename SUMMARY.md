@@ -5,6 +5,7 @@
   * [学习各方面](mei-tian-bi-kan/xue-xi-ge-fang-mian.md)
   * [心理情绪](mei-tian-bi-kan/xin-li-qing-xu.md)
   * [每天学习计划](mei-tian-bi-kan/mei-tian-xue-xi-ji-hua.md)
+  * [java 学习原理必看](mei-tian-bi-kan/java-xue-xi-yuan-li-bi-kan.md)
 * [java 教程网站](chapter1.md)
 * [设计模式](she-ji-mo-shi.md)
 * [Java](java.md)
