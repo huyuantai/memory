@@ -49,4 +49,5 @@
   * [rabbitmq](fen-bu-shi/rabbitmq.md)
 * [高并发数量](gao-bing-fa-shu-liang.md)
 * [Elasticsearch ](elasticsearch.md)
+* [CAS SSO](cas-sso.md)
 
