@@ -44,6 +44,7 @@
       * [线程池](java/java-se/ff01-bing-fa-duo-xian-cheng/xian-cheng-chi.md)
 * [数据库](shu-ju-ku.md)
   * [Sql](shu-ju-ku/sql.md)
+    * [sql 课程创建](shu-ju-ku/sql/sql-ke-cheng-chuang-jian.md)
 * [分布式](fen-bu-shi.md)
   * [分布式事务](fen-bu-shi/fen-bu-shi-shi-wu.md)
   * [rabbitmq](fen-bu-shi/rabbitmq.md)
