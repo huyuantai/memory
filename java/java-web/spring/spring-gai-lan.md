@@ -1,5 +1,5 @@
 spring IOC 必看：https://www.cnblogs.com/ITtangtang/p/3978349.html
-spring Aop 必看：
+spring AOP 必看：
 
 
 * Spring 容器
