@@ -40,7 +40,6 @@ group by 要得到一条记录
 同表1 where In （同表2）
 同表1 where 字段 = （max（字段）同表2）
 同表1 where 字段 = （avg（字段）同表2）
-
 from 同表1， 同表2 where 同表1.字段=同表2.字段
 
 
