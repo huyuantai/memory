@@ -48,7 +48,7 @@ https://www.cnblogs.com/aipan/p/7770611.html
 
 
 myql 上个月、上周等等
-
+http://tting.iteye.com/blog/1628462
 
 
 查询Score表中的最高分的学生学号和课程号。
