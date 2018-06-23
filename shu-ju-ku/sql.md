@@ -44,6 +44,7 @@ from 同表1， 同表2 where 同表1.字段=同表2.字段
 
 
 case when
+https://www.cnblogs.com/aipan/p/7770611.html
 
 
 myql 上个月、上周等等
