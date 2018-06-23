@@ -43,6 +43,10 @@ group by 要得到一条记录
 from 同表1， 同表2 where 同表1.字段=同表2.字段
 
 
+case when
+
+
+
 
 查询Score表中的最高分的学生学号和课程号。
 SELECT SNO,CNO FROM SCORE WHERE DEGREE=(SELECT MAX(DEGREE) FROM SCORE);
