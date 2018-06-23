@@ -26,6 +26,7 @@ https://blog.csdn.net/qq_36330228/article/details/77893368
 > 5、执行ORDER BY排序
 
 # Group By 原理
+https://blog.csdn.net/hao1066821456/article/details/69556644
 group by name 一个字段
 ![](/assets/162343319172617.jpg)
 
