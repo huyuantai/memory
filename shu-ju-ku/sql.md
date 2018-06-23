@@ -1,3 +1,6 @@
+mysql
+http://bbs.51cto.com/thread-1470880-1.html
+
 sql必看
 
 https://www.zhihu.com/question/19552975
