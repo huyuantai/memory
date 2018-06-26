@@ -21,7 +21,7 @@ set方法把setnx和expire合成一条指令
 
 如果对方追问pub/sub有什么缺点？在消费者下线的情况下，生产的消息会丢失，得使用专业的消息队列如rabbitmq等。
 
-# redis实现延时队列
+# redis 实现延时队列
 
 
 
