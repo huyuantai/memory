@@ -4,3 +4,5 @@ String、字典Hash、列表List、集合Set、有序集合SortedSet
 
 # Redis Module
 Redis Module，像BloomFilter，RedisSearch，Redis-ML
+
+# Redis分布式锁
