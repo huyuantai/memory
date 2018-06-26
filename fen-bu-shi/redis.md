@@ -10,3 +10,4 @@ setnx + expire
 set方法把setnx和expire合成一条指令
 
 # 大量key，查询时不能用keys，会造成阻塞
+可以使用scan指令，scan指令可以无阻塞的提取出指定模式的key列表，但是会有一定的重复概率，在客户端做一次去重
