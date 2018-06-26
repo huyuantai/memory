@@ -22,6 +22,7 @@ set方法把setnx和expire合成一条指令
 如果对方追问pub/sub有什么缺点？在消费者下线的情况下，生产的消息会丢失，得使用专业的消息队列如rabbitmq等。
 
 # redis 实现延时队列
+使用sortedset，拿时间戳作为score，消息内容作为key调用zadd来生产消息，消费者用zrangebyscore指令获取N秒之前的数据轮询进行处理
 
 
 
