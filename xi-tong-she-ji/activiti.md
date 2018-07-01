@@ -20,4 +20,14 @@ StartEvent，UserTask，ExlusiveGateway，UserTask，EndEvent
 连线都是SequenceFlow
 ExlusiveGateway:排他，并行； 排他，几个人谁先签谁执行控件
 
- 
+
+1.编辑流程xml，或用工具设计bpm
+2.部署流程
+3.前端请假信息表单提交
+4.后台一个Leave对象用于保存请假信息（表单），保存相应的数据库表为 leave
+5.启动流程：runtimeService.startProcessInstanceByKey
+6.查看提交的任务，在请假申请的办理人assignee
+List<Task> taskList = taskService.createTaskQuery().taskAssignee(assignee).list();
+7.流程审批：通过 taskId 就可以对当前执行的任务进行审批
+TaskService taskService = processEngine.getTaskService();
+taskService.complete(taskid, map);
