@@ -53,4 +53,6 @@
 * [高并发数量](gao-bing-fa-shu-liang.md)
 * [Elasticsearch ](elasticsearch.md)
 * [CAS SSO](cas-sso.md)
+* [系统设计](xi-tong-she-ji.md)
+  * [权限系统](xi-tong-she-ji/quan-xian-xi-tong.md)
 
