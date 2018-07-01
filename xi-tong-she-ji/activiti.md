@@ -2,6 +2,7 @@
 activi 学习网站
 流程概览了解：https://www.jianshu.com/p/bdc9c9fa719d
 https://my.oschina.net/u/1764868/blog/401975
+https://www.jianshu.com/p/701056e672a4
 
 
 # 工作流
