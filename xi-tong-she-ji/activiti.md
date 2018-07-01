@@ -13,5 +13,12 @@ https://www.jianshu.com/p/701056e672a4
 
 将部分或者全部的工作流程、逻辑让计算机帮你来处理，实现自动化
 
+![](/assets/10135025-afeff18c785c7345.png)
+
+以上控件为：
+StartEvent，UserTask，ExlusiveGateway，UserTask，EndEvent
+连线都是SequenceFlow
+ExlusiveGateway:排他，并行
+排他，几个人谁先签谁执行控件
 
  
