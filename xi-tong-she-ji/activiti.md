@@ -18,7 +18,6 @@ https://www.jianshu.com/p/701056e672a4
 以上控件为：
 StartEvent，UserTask，ExlusiveGateway，UserTask，EndEvent
 连线都是SequenceFlow
-ExlusiveGateway:排他，并行
-排他，几个人谁先签谁执行控件
+ExlusiveGateway:排他，并行； 排他，几个人谁先签谁执行控件
 
  
