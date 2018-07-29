@@ -57,4 +57,5 @@
   * [权限系统](xi-tong-she-ji/quan-xian-xi-tong.md)
   * [Activiti](xi-tong-she-ji/activiti.md)
 * [需求分析问题 与 各类方案解决](xu-qiu-fen-xi-wen-ti-yu-ge-lei-fang-an-jie-jue.md)
+* [工作方式](gong-zuo-fang-shi.md)
 
