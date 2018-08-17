@@ -59,4 +59,5 @@
 * [需求分析问题 与 各类方案解决](xu-qiu-fen-xi-wen-ti-yu-ge-lei-fang-an-jie-jue.md)
 * [工作方式](gong-zuo-fang-shi.md)
 * [数据校验](shu-ju-xiao-yan.md)
+* [性能 批量](xing-neng-pi-liang.md)
 
