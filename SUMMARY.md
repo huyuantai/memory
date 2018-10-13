@@ -60,4 +60,5 @@
   * [高并发数量](gao-bing-fa-shu-liang.md)
   * [CAS SSO](cas-sso.md)
   * [Elasticsearch ](elasticsearch.md)
+* [不同架构分类](bu-tong-jia-gou-fen-lei.md)
 
