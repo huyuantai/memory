@@ -31,8 +31,8 @@
         * [GC](java/java-se/java-huan-jing/jvm/gc.md)
         * [JVM 参数](java/java-se/java-huan-jing/jvm/jvm-can-shu.md)
       * [JVM 面试题](java/java-se/java-huan-jing/jvm-mian-shi-ti.md)
-    * 基本数据类型
-    * 面向对象
+    * [基本数据类型](java/java-se/ji-ben-shu-ju-lei-xing.md)
+    * [面向对象](java/java-se/mian-xiang-dui-xiang.md)
     * [！Java集合](java/java-se/javaji-he.md)
     * [异常处理](java/java-se/yi-chang-chu-li.md)
     * [泛型](java/java-se/fan-xing.md)
@@ -61,4 +61,5 @@
   * [CAS SSO](cas-sso.md)
   * [Elasticsearch ](elasticsearch.md)
 * [不同架构分类](bu-tong-jia-gou-fen-lei.md)
+* [学习内容](xue-xi-nei-rong.md)
 
