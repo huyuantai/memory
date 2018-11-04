@@ -47,6 +47,7 @@
     * [sql 课程基础](shu-ju-ku/sql/sql-ke-cheng-ji-chu.md)
   * [sql查询的几种方式](shu-ju-ku/shu-ju-ku-lian-jie.md)
   * [Explain](shu-ju-ku/explain.md)
+  * [sql优化分类](shu-ju-ku/sqlyou-hua-fen-lei.md)
 * [分布式](fen-bu-shi.md)
   * [分布式事务](fen-bu-shi/fen-bu-shi-shi-wu.md)
   * [rabbitmq](fen-bu-shi/rabbitmq.md)
