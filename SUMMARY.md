@@ -50,6 +50,7 @@
   * [sql优化分类](shu-ju-ku/sqlyou-hua-fen-lei.md)
   * [sql语句原理](shu-ju-ku/sqlyu-ju-yuan-li.md)
     * [整体sql原理](shu-ju-ku/sqlyu-ju-yuan-li/zheng-ti-sql-yuan-li.md)
+    * [Join sql 原理](shu-ju-ku/sqlyu-ju-yuan-li/join-sql-yuan-li.md)
 * [分布式](fen-bu-shi.md)
   * [分布式事务](fen-bu-shi/fen-bu-shi-shi-wu.md)
   * [rabbitmq](fen-bu-shi/rabbitmq.md)
