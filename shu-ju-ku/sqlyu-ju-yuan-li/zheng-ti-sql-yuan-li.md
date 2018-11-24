@@ -13,5 +13,4 @@
 
 # 默认传统顺序
 from on join where group by having
-
 select distinct ordery by limit
