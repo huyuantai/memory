@@ -12,9 +12,9 @@ Left Join C ON A.p_id = C.p_id
 
 
 
-From A  Left Join B ON A.t_id = B.t_id AND B.status = 1
+a:  From A  Left Join B ON A.t_id = B.t_id AND B.status = 1
 与
-From A  Left Join B ON A.t_id = B.t_id Where B.status = 1
+b:  From A  Left Join B ON A.t_id = B.t_id Where B.status = 1
 的区别
 
 
