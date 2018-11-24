@@ -10,6 +10,8 @@
 * (9)     ORDER BY <order_by_condition>
 * (10)    LIMIT <limit_number>
 
+
+# 默认传统顺序
 from on join where group by having
 
 select distinct ordery by limit
