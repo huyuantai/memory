@@ -9,3 +9,7 @@
 * (6)     HAVING <having_condition>
 * (9)     ORDER BY <order_by_condition>
 * (10)    LIMIT <limit_number>
+
+from on join where group by having
+
+select distinct ordery by limit
