@@ -15,4 +15,4 @@
 from on join where group by having
 select distinct ordery by limit
 
- 但是现代的数据库都对以上的顺序做了些优化，最直接的是
+但是现代的数据库都对以上的顺序做了些优化，并不一定就按该传统顺序，最直接的是数据库的优化器将选择首先评估where，看是否能利用索引，然后再执行from，来避免直接加载from 表的全部大量数据集
