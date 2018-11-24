@@ -21,4 +21,5 @@ select distinct ordery by limit
 
 > where 不能使用select 中的别名，因为该别名尚未确定
 
-> mysql中，在GROUP BY和HAVING子句中允许使用SELECT列表中创建的别名，即使这些子句出现在SELECT子句之前（并且比SELECT子句更早地进行评估）
+> mysql中，在GROUP BY和HAVING子句中允许使用SELECT列表中创建的别名，
+即使这些子句出现在SELECT子句之前（并且比SELECT子句更早地进行评估）
