@@ -19,13 +19,14 @@ select distinct ordery by limit
 
 # 几点需要注意
 
-> where 不能使用select 中的别名，因为该别名尚未确定
+* > where 不能使用select 中的别名，因为该别名尚未确定
 
-> mysql中，在GROUP BY和HAVING子句中允许使用SELECT列表中创建的别名，
+
+* > mysql中，在GROUP BY和HAVING子句中允许使用SELECT列表中创建的别名，
 即使这些子句出现在SELECT子句之前（并且比SELECT子句更早地进行评估）
 
-> 在同一个SELECT列表中的其他表达式不能使用表达式别名。这是因为计算表达式的逻辑顺序无关紧要，也不能保证。例如，这个SELECT子句可能不如预期的那样工作，因此不支持：SELECT a+1AS x，x+1AS y
+* > 在同一个SELECT列表中的其他表达式不能使用表达式别名。这是因为计算表达式的逻辑顺序无关紧要，也不能保证。例如，这个SELECT子句可能不如预期的那样工作，因此不支持：SELECT a+1AS x，x+1AS y
 
 
 
-> 当使用INNER JOIN时，在WHERE子句或ON子句中指定逻辑表达式并不重要。这是真的，因为ON和WHERE之间没有逻辑差异（除了使用OUTER JOIN或GROUP BY ALL选项时）
+* > 当使用INNER JOIN时，在WHERE子句或ON子句中指定逻辑表达式并不重要。这是真的，因为ON和WHERE之间没有逻辑差异（除了使用OUTER JOIN或GROUP BY ALL选项时）
