@@ -14,3 +14,5 @@
 # 默认传统顺序
 from on join where group by having
 select distinct ordery by limit
+
+ 但是现代的数据库都对以上的顺序做了些优化
