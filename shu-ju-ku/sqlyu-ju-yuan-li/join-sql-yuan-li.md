@@ -12,4 +12,20 @@ Left Join C ON A.p_id = C.p_id
 
 
 
+From A  Left Join B ON A.t_id = B.t_id AND B.status = 1
+yu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
