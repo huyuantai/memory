@@ -9,6 +9,7 @@ Oracle 使用这三种hash Join， Nested loops，Sort Merge Join
 
 > Mysql 只使用了Nested loops
 
+#### hash Join
 
 
 
