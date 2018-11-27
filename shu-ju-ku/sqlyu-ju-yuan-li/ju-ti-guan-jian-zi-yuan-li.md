@@ -27,8 +27,8 @@ Sort Merge join 用在没有索引，并且数据已经排序的情况
 ### Mysql Nested-Loop Join
 Mysql的连接使用的是Nested-Loop Join
 当join关联的字段有索引时
-关联的为主键索引
-关联的为非主键索引，辅助索引时
+* 关联的为主键索引
+* 关联的为非主键索引，辅助索引时
 
 
 
