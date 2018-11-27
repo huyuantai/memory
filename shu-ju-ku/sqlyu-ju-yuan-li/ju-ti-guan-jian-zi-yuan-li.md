@@ -42,7 +42,7 @@ exlain 出现using join buffer（block nested loop），using join buffer（batc
 
 using join buffer：没使用索引，该字段没索引
 using index：索引覆盖
-using index condition：
+using index condition：使用索引还不能完全过滤出数据，必须再回表获取数据进一步过滤出最终数据
 
 
 
