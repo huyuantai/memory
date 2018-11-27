@@ -18,7 +18,8 @@ Oracle 使用这三种hash Join， Nested loops，Sort Merge Join
 类似一个嵌套的循环,for里for
 
 ##### Sort Merge Join
-通常情况下散列连接的效果都比排序合并连接要好，然而如果行源已经被排过序，在执行排序合并连接时不需要再排序了，这时排序合并连接的性能会优于散列连接。可以使用USE_MERGE(table_name1 table_name2)来强制使用排序合并连接.
+如果行源已经被排过序，在执行排序合并连接时不需要再排序了，这时排序合并连接的性能会优于散列连接。
+可以使用USE_MERGE(table_name1 table_name2)来强制使用排序合并连接.
 
 Sort Merge join 用在没有索引，并且数据已经排序的情况
 
