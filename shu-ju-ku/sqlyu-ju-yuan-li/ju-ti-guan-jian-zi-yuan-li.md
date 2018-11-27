@@ -40,6 +40,9 @@ Mysql的连接使用的是Nested-Loop Join
 exlain 出现using join buffer（block nested loop），using join buffer（batched key accss）就是关联的字段没索引，这时一般为需要关联的字段添加索引
 
 
+using join buffer：没使用索引，该字段没索引
+
+
 
 
 
