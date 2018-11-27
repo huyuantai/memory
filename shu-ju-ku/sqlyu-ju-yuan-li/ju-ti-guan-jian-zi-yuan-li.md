@@ -11,6 +11,8 @@ Oracle 使用这三种hash Join， Nested loops，Sort Merge Join
 
 ##### hash Join
 大数据集连接时的常用方式
+步骤：将两个表中较小的一个在内存中构造一个HASH表（对JOIN KEY），扫描另一个表，同样对JOIN KEY进行HASH后探测是否可以JOIN。适用于记录集比较大的情况。需要注意的是：如果HASH表太大，无法一次构造在内存中，则分成若干个partition，写入磁盘的temporary segment，则会多一个写的代价，会降低效率
+
 
 ##### Nested loops 
 类似一个嵌套的循环,for里for
