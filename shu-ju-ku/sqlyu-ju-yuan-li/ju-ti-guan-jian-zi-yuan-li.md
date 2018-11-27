@@ -5,6 +5,9 @@
 ## join
 ### join 连接算法
 表之间的连接用了hash Join， Nested loops，Sort Merge Join
+Oracle 使用这三种hash Join， Nested loops，Sort Merge Join
+Mysql 只使用了Nested loops
+
 
 
 
