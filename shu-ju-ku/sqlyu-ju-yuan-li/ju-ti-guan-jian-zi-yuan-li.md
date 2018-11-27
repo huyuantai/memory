@@ -9,6 +9,7 @@
 
 
 
+
 ### join 连接对比
 From A 
 Left Join B ON A.t_id = B.t_id 
