@@ -42,7 +42,7 @@ exlain 出现using join buffer（block nested loop），using join buffer（batc
 
 using join buffer：没使用索引，该字段没索引
 using index：索引覆盖
-
+using index condition：
 
 
 
