@@ -48,12 +48,6 @@ using index condition：使用索引还不能完全过滤出数据，必须再�
 
 
 
-
-
-
-
-
-
 ### join 连接对比
 From A 
 Left Join B ON A.t_id = B.t_id 
