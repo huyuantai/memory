@@ -25,6 +25,7 @@ Sort Merge join 用在没有索引，并且数据已经排序的情况
 
 
 ### Mysql Nested-Loop Join
+Mysql的连接使用的是
 
 
 
