@@ -28,6 +28,14 @@ Sort Merge join 用在没有索引，并且数据已经排序的情况
 Mysql的连接使用的是Nested-Loop Join
 当join关联的字段有索引时
 
+当join关联的字段没有索引时
+
+
+
+
+
+
+
 
 
 
