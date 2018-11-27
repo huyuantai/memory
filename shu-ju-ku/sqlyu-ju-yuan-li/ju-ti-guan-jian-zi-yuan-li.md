@@ -12,6 +12,8 @@ Oracle 使用这三种hash Join， Nested loops，Sort Merge Join
 ##### hash Join
 
 ##### Nested loops 
+类似一个嵌套的循环
+
 ##### Sort Merge Join
 
 
