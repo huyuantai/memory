@@ -2,7 +2,9 @@
 # 具体join in exist group by  order by min max  count 原理
 
 ### join
----
+
+
+### join 连接对比
 From A 
 Left Join B ON A.t_id = B.t_id 
 Left Join C ON A.p_id = C.p_id 
@@ -14,8 +16,6 @@ Left Join C ON A.p_id = C.p_id
 > ON A.t_id = B.t_id 
 > ON A.t_id > B.t_id 
 > ON A.t_id < B.t_id 
-
-
 
 a:  From A  Left Join B ON A.t_id = B.t_id AND B.status = 1
 与
