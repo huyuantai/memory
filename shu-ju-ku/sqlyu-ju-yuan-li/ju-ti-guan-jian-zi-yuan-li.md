@@ -10,6 +10,7 @@ Oracle 使用这三种hash Join， Nested loops，Sort Merge Join
 > Mysql 只使用了Nested loops
 
 ##### hash Join
+大数据集连接时的常用方式
 
 ##### Nested loops 
 类似一个嵌套的循环,for里for
