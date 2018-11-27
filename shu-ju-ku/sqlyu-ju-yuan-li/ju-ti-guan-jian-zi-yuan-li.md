@@ -28,7 +28,8 @@ Sort Merge join 用在没有索引，并且数据已经排序的情况
 Mysql的连接使用的是Nested-Loop Join
 当join关联的字段有索引时
 
-当join关联的字段没有索引时
+当join关联的字段没有索引时 使用buffer 缓冲来优化关联
+exlain 出现using join buffer（block nested loop），using join buffer（batched key accss）就是关联的字段没索引，这时一般为需要关联的字段添加索引
 
 
 
