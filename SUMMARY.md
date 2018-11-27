@@ -52,6 +52,7 @@
     * [整体sql原理](shu-ju-ku/sqlyu-ju-yuan-li/zheng-ti-sql-yuan-li.md)
     * [Join sql 原理](shu-ju-ku/sqlyu-ju-yuan-li/join-sql-yuan-li.md)
     * [具体关键字原理](shu-ju-ku/sqlyu-ju-yuan-li/ju-ti-guan-jian-zi-yuan-li.md)
+    * 索引
 * [分布式](fen-bu-shi.md)
   * [分布式事务](fen-bu-shi/fen-bu-shi-shi-wu.md)
   * [rabbitmq](fen-bu-shi/rabbitmq.md)
