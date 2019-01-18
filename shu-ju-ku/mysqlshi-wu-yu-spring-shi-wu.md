@@ -48,6 +48,6 @@ PROPAGATION_REQUIRES_NEW
 不依赖外部事务 内部事务开始执行时, 外部事务将被挂起, 内务事务结束时, 外部事务将继续执行
 
 PROPAGATION_NESTED        
-依赖外部事务
+依赖外部事务  外部事务的子事务, 如果外部事务 commit, 潜套事务也会被 commit, 这个规则同样适用于 roll back
 
 
