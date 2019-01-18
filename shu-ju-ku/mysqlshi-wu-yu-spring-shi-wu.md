@@ -24,6 +24,6 @@ DEFAULT 这是一个PlatfromTransactionManager默认的隔离级别，使用数�
 Mysql 默认:可重复读 
 Oracle 默认:读已提交
 
-## Innodb的重复读（repeatable read）
+## Innodb的可重复读（repeatable read）
 不允许脏读，不允许非重复读（即可以重复读，Innodb使用多版本一致性读来实现）
 不允许幻象读（这点和ANSI/ISO SQL标准定义的有所区别）
