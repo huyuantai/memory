@@ -13,7 +13,7 @@
 不可重复读 :一个事务读到了另一个事务已经提交的 update 的数据导致多次查询结果不一致. 
 虚幻读 :一个事务读到了另一个事务已经提交的 insert 的数据导致多次查询结果不一致.
 
-## 事务隔离级别  ANSI/ISO SQL标准定义
+## 事务隔离级别  ANSI/ISO SQL标准定义  AA
 DEFAULT 这是一个PlatfromTransactionManager默认的隔离级别，使用数据库默认的事务隔离级别. 
 未提交读（read uncommited） :脏读，不可重复读，虚读都有可能发生 
 已提交读 （read commited）:避免脏读。但是不可重复读和虚读有可能发生 
