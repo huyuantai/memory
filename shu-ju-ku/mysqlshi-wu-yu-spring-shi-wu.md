@@ -31,7 +31,7 @@ Oracle 默认:读已提交
 
 
 ## 事务的传播行为
-* 保证同一个事务中 
+#### 保证同一个事务中 
 PROPAGATION_REQUIRED 支持当前事务，如果不存在 就新建一个(默认) 
 PROPAGATION_SUPPORTS 支持当前事务，如果不存在，就不使用事务 
 PROPAGATION_MANDATORY 支持当前事务，如果不存在，抛出异常 
