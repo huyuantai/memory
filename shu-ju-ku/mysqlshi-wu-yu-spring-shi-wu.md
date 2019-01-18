@@ -44,7 +44,10 @@ Oracle 默认:读已提交
 * PROPAGATION_NESTED 如果当前事务存在，则嵌套事务执行
 
 #### PROPAGATION_REQUIRES_NEW、PROPAGATION_NESTED 区别
-PROPAGATION_REQUIRES_NEW  不依赖外部事务
-PROPAGATION_NESTED        依赖外部事务
+PROPAGATION_REQUIRES_NEW  
+不依赖外部事务 内部事务开始执行时, 外部事务将被挂起, 内务事务结束时, 外部事务将继续执行
+
+PROPAGATION_NESTED        
+依赖外部事务
 
 
