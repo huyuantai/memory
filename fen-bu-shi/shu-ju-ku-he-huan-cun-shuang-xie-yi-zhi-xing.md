@@ -36,6 +36,9 @@ https://mp.weixin.qq.com/s?__biz=MjM5ODYxMDA5OQ==&mid=2651961368&idx=1&sn=82a59f
 (2)线程B更新了数据库
 (3)线程B更新了缓存
 (4)线程A更新了缓存
+本来应该数据应该为线程B更新的数据，但是应该更新
+
+
 
 
 
