@@ -23,4 +23,5 @@ https://mp.weixin.qq.com/s?__biz=MjM5ODYxMDA5OQ==&mid=2651961368&idx=1&sn=82a59f
 无数据时再读取数据库，再放入缓存中，后返回客户端
 
 ## 缓存更新两大策略
+1.更新缓存策略（update）
 
