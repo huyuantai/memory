@@ -40,5 +40,9 @@ https://mp.weixin.qq.com/s?__biz=MjM5ODYxMDA5OQ==&mid=2651961368&idx=1&sn=82a59f
 
 
 
+#### 淘汰缓存策略（选用这方式）
+
+
+
 
 
