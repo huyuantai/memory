@@ -27,6 +27,6 @@ https://mp.weixin.qq.com/s?__biz=MjM5ODYxMDA5OQ==&mid=2651961368&idx=1&sn=82a59f
 2.淘汰缓存策略（delete）
 
 
-## 更新缓存策略（线程安全问题！！)
+## 更新缓存策略(线程安全问题！！)
 
 
