@@ -41,6 +41,9 @@ https://mp.weixin.qq.com/s?__biz=MjM5ODYxMDA5OQ==&mid=2651961368&idx=1&sn=82a59f
 
 
 #### 淘汰缓存策略（选用这方式）
+1.更新数据库，再删缓存
+2.更新缓存，再删数据库
+
 
 
 
