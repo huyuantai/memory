@@ -18,3 +18,7 @@ https://mp.weixin.qq.com/s?__biz=MjM5ODYxMDA5OQ==&mid=2651961368&idx=1&sn=82a59f
 2.缓存更新
 
 ## 缓存读取
+读取缓存
+有数据时直接返回客户端
+无数据时直接返回客户端
+
