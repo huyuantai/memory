@@ -24,4 +24,6 @@ https://mp.weixin.qq.com/s?__biz=MjM5ODYxMDA5OQ==&mid=2651961368&idx=1&sn=82a59f
 
 ## 缓存更新两大策略
 1.更新缓存策略（update）
+2.淘汰缓存策略（update）
+
 
