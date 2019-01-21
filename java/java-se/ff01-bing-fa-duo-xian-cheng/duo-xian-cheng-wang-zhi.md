@@ -9,3 +9,5 @@ https://www.cnblogs.com/fingerboy/p/5352880.html
 新建-就绪-运行-销毁
 
 3个中间转换态（2个等待  1个阻塞）
+等待 别人 通知后 就绪
+
