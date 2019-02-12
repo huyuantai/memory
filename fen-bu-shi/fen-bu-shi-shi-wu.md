@@ -62,6 +62,9 @@ TCC事务是Try、Commit、Cancel三种指令的缩写，其逻辑模式类似�
 - Confirm：确认执行业务操作（每个Confirm都得幂等操作）
 - Cancel：取消执行业务操作 （每个Cancel都得幂等操作）
 
+> 当try阶段协调者，收到所有参与者的回复都为success，则调用Confirm确认执行业务操作；
+如果不都为success，则调用Cancel取消执行业务操作
+
 
 
 
@@ -87,8 +90,7 @@ cancelZ 冻结余额失败，账户红包退回，订单支付失败
 ![](/assets/v2-079e51cc1d398c96a8d321d0653d1dd5_hd.jpg)
 
 
-当try阶段协调者，收到所有参与者的回复都为success，则调用Confirm确认执行业务操作；
-如果不都为success，则调用Cancel取消执行业务操作
+
 
 当try方法的AOP切面有异常的时候，采用线程池异步去执行cancel，无异常的时候去执行confrim方法。
 
