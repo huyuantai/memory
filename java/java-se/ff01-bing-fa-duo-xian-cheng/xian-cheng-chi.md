@@ -11,7 +11,7 @@ https://blog.csdn.net/dj2442945707/article/details/56292413
 
 
 
-（内存不足）和线程泄漏
+## （内存不足）和线程泄漏
 
 队列太多任务oom
 线程数太大 oom
