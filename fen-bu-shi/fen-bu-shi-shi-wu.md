@@ -66,8 +66,6 @@ TCC事务是Try、Commit、Cancel三种指令的缩写，其逻辑模式类似�
 如果不都为success，则调用Cancel取消执行业务操作
 
 
-
-
 ## 示例
 - Try操作
 tryX 下单系统创建待支付订单
