@@ -55,7 +55,8 @@ XA三阶段提交在两阶段提交的基础上增加了CanCommit阶段，并且
 
 
 ## TCC  https://www.liangzl.com/get-article-detail-525.html
-TCC事务是Try、Commit、Cancel三种指令的缩写，其逻辑模式类似于XA两阶段提交，但是实现方式是在代码层面来人为实现TCC里对每个服务资源操作的是本地事务，数据被lock的时间短，可扩展性好
+TCC事务是Try、Commit、Cancel三种指令的缩写，其逻辑模式类似于XA两阶段提交，
+但是实现方式是在代码层面来人为实现TCC里对每个服务资源操作的是本地事务，数据被lock的时间短，可扩展性好
 
 ## 最大努力通知
 #### 方案特点
