@@ -10,6 +10,7 @@ http://matrix-lee.iteye.com/blog/2144630
 https://blog.csdn.net/dj2442945707/article/details/56292413
 
 
+https://segmentfault.com/a/1190000015808897
 
 ## （内存不足）和线程泄漏
 
