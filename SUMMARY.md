@@ -42,6 +42,7 @@
       * [线程池](java/java-se/ff01-bing-fa-duo-xian-cheng/xian-cheng-chi.md)
     * [Java回调](java/java-se/javahui-diao.md)
   * [设计模式](she-ji-mo-shi.md)
+  * [ThreadLocal类型变量为何声明为静态](java/threadlocallei-xing-bian-liang-wei-he-sheng-ming-wei-jing-tai.md)
 * [数据库](shu-ju-ku.md)
   * [Sql](shu-ju-ku/sql.md)
     * [sql 课程创建](shu-ju-ku/sql/sql-ke-cheng-chuang-jian.md)
