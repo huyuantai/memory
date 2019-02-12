@@ -65,11 +65,9 @@ TCC事务是Try、Commit、Cancel三种指令的缩写，其逻辑模式类似�
 当try阶段协调者，收到所有参与者的回复都为success，则调用Confirm确认执行业务操作；
 如果不都为success，则调用Cancel取消执行业务操作
 
-
-
-
 ![](/assets/20180604001625_695.jpg)
 
+![](/assets/v2-079e51cc1d398c96a8d321d0653d1dd5_hd.jpg)
 
 
 ## 最大努力通知
