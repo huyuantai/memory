@@ -60,7 +60,7 @@ TCC事务是Try、Commit、Cancel三种指令的缩写，其逻辑模式类似�
 
 - Try：预留业务资源/数据效验（如创建待处理的订单、先冻结账户的金额等）
 - Confirm：确认执行业务操作（每个Confirm都得幂等操作）
-- Cancel：取消执行业务操作 （每个Confirm都得幂等操作）
+- Cancel：取消执行业务操作 （每个Cancel都得幂等操作）
 
 
 当try阶段协调者，收到所有参与者的回复都为success，则调用Confirm确认执行业务操作；
