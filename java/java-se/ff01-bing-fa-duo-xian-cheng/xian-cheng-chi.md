@@ -73,11 +73,15 @@ handle:定义处理被拒绝任务的策略，默认使用ThreadPoolExecutor.Abo
 
 AbortPolicy：直接抛出异常。
 
+DiscardPolicy：不处理，丢弃掉。
+
+
+
 CallerRunsPolicy：只用调用者所在线程来运行任务。
 
 DiscardOldestPolicy：丢弃队列里最近的一个任务，并执行当前任务。
 
-DiscardPolicy：不处理，丢弃掉。
+
 
 
 # 线程池的最大线程数目根据什么确定
