@@ -1,5 +1,4 @@
 http://blog.163.com/wm_at163/blog/static/132173490201242984518354/
-https://segmentfault.com/a/1190000008394155
 https://www.cnblogs.com/dolphin0520/p/3932921.html
 http://www.cnblogs.com/dolphin0520/p/3932934.html
 
@@ -72,13 +71,9 @@ handle:定义处理被拒绝任务的策略，默认使用ThreadPoolExecutor.Abo
 
 
 AbortPolicy：直接抛出异常。
-
 DiscardPolicy：不处理，丢弃掉。
 
-
-
 CallerRunsPolicy：只用调用者所在线程来运行任务。
-
 DiscardOldestPolicy：丢弃队列里最近的一个任务，并执行当前任务。
 
 
