@@ -20,11 +20,10 @@ public static void main(String[] args) {
 
 
 
-For synchronization block. How
 
-synchronize(this){ // code } differs from
+- synchronize(this){ // code } 
 
-synchronize(MyClass.class){ //code }
+- synchronize(MyClass.class){ //code }
 
 this - is the reference to particular this instance of class,
 
