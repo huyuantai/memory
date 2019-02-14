@@ -1,8 +1,8 @@
 # 流程
-IOC
-AOP
-MVC
-Mapping
+- IOC
+- AOP
+- MVC
+- Mapping
 
 # IOC（存BeanDefinition到Map，从Map中获取BeanDefinition 反射实例化）
 1.AbstractApplicationContext的refresh()，将Bean信息转化为BeanDefinition，存储到Map中
