@@ -6,3 +6,4 @@ CAS有3个操作数，内存值V，旧的预期值A，要修改的新值B
 - unsafe.compareAndSwapInt(this, valueOffset, expect, update)
 
 # compareAndSwapInt 底层原理
+- 调用JNI的代码C代码实现
