@@ -15,4 +15,6 @@ public static void main(String[] args) {
     }
 ```
 
+## 使用 javap -c Synchronize 可以查看编译之后的具体信息
+
 
