@@ -33,3 +33,6 @@ inline jint     Atomic::cmpxchg    (jint     exchange_value, volatile jint*     
 }
 
 ```
+# 关键代码分析
+
+cmpxchg指令添加lock前缀
