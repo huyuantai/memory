@@ -55,6 +55,8 @@ inline jint     Atomic::cmpxchg    (jint     exchange_value, volatile jint*     
 
 # 当数据跨多个缓存行（cache line），使用不了缓存锁，则处理器会调用总线锁
 
+# CAS 三大缺点
+
 
 
 
