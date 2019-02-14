@@ -14,6 +14,7 @@
       * [Spring MVC](java/java-web/spring/spring-mvc.md)
       * [Spring AOP](java/java-web/spring/spring-aop.md)
       * [Spring 概括](java/java-web/spring/spring-gai-kuo.md)
+      * [IOC VS DI](java/java-web/spring/ioc-vs-di.md)
     * [Spring Cloud](java/java-web/spring-cloud.md)
       * [微服务设计原则](java/java-web/spring-cloud/wei-fu-wu-she-ji-yuan-ze.md)
       * [Spring Cloud 各组件概览](java/java-web/spring-cloud/spring-cloud-ge-zu-jian-gai-lan.md)
