@@ -47,7 +47,8 @@ inline jint     Atomic::cmpxchg    (jint     exchange_value, volatile jint*     
 
 
 # 缓存锁（优化总线锁的独占，提高性能）
-处理器不在总线上声言LOCK＃信号
+处理器不在总线上声言LOCK＃信号，而是利用缓存一致性机制
+缓存一致性机制会阻止同时修改被两个以上处理器缓存的内存区域数据
 
 
 
