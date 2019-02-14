@@ -60,6 +60,10 @@ inline jint     Atomic::cmpxchg    (jint     exchange_value, volatile jint*     
 2.循环时间长
 3.只能保证一个共享变量的原子操作
 
+### ABA问题
+ABA问题的解决思路就是使用版本号。
+在变量前面追加上版本号，每次变量更新的时候把版本号加一，那么A－B－A 就会变成1A-2B－3A
+
 
 
 
