@@ -20,7 +20,7 @@ public static void main(String[] args) {
 
 
 
-
+## synchronize(this)  VS synchronize(MyClass.class)
 - synchronize(this){ // code } 
 
 - synchronize(MyClass.class){ //code }
