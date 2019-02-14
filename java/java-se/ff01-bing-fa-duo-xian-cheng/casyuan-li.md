@@ -38,5 +38,9 @@ inline jint     Atomic::cmpxchg    (jint     exchange_value, volatile jint*     
 - 如果是单处理器，就省略lock前缀
 
 # lock前缀 
+- 为CPU添加总线锁
+- 或CPU添加总线锁
+
+
 
 
