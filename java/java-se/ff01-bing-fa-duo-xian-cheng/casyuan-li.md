@@ -51,7 +51,7 @@ inline jint     Atomic::cmpxchg    (jint     exchange_value, volatile jint*     
 缓存一致性机制 两个以上处理器缓存的内存区域数据，不允许同时修改
 > 如：当CPU1修改缓存行中的i时使用缓存锁定，那么CPU2就不能同时缓存了i的缓存行
 
-# 数据跨多个缓存行（cache line），则处理器会调用总线锁定
+# 当数据跨多个缓存行（cache line），则处理器会调用总线锁定
 
 
 
