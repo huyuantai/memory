@@ -34,4 +34,5 @@ inline jint     Atomic::cmpxchg    (jint     exchange_value, volatile jint*     
 
 ```
 # 关键代码分析
-如果是多处理器，为cmpxchg指令添加lock前缀
+- 如果是多处理器，为cmpxchg指令添加lock前缀
+- 如果是单处理器
