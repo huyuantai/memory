@@ -42,6 +42,9 @@ inline jint     Atomic::cmpxchg    (jint     exchange_value, volatile jint*     
 - 或CPU添加缓存锁
 
 # 总线锁
+总线锁就是使用处理器提供的一个LOCK＃信号，当一个处理器在总线上输出此信号时
+其他处理器的请求将被阻塞住,那么该处理器可以独占使用共享内存
+
 
 
 
