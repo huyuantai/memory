@@ -41,6 +41,9 @@ inline jint     Atomic::cmpxchg    (jint     exchange_value, volatile jint*     
 - 为CPU添加总线锁
 - 或CPU添加缓存锁
 
+# 总线锁
+
+
 
 
 
