@@ -5,3 +5,11 @@ JVM 是通过进入、退出对象监视器( Monitor )来实现对方法、同�
 
 ![](/assets/monitor.jpg)
 
+```java
+public static void main(String[] args) {
+        synchronized (Synchronize.class){
+            System.out.println("Synchronize");
+        }
+    }
+```
+
