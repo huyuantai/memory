@@ -62,7 +62,7 @@ Failover Cluster    失败自动切换，自动重试其它服务器（默认）
 Failfast Cluster    快速失败，立即报错，只发起一次调用  
 Failsafe Cluster    失败安全，出现异常时，直接忽略  
 Failback Cluster    失败自动恢复，记录失败请求，定时重发  
-Forking Cluster    并行调用多个服务器，只要一个成功即返回  
+Forking Cluster     并行调用多个服务器，只要一个成功即返回  
 Broadcast Cluster    广播逐个调用所有提供者，任意一个报错则报错
 
 
