@@ -47,3 +47,21 @@ rest://
 2）retries：失败重试次数，默认重试 2 次
 3）loadbalance：负载均衡算法，默认随机
 4）actives 消费者端，最大并发调用限制
+
+
+## Dubbo有哪几种集群容错方案，默认是哪种？
+
+集群容错方案	说明
+Failover Cluster	失败自动切换，自动重试其它服务器（默认）
+Failfast Cluster	快速失败，立即报错，只发起一次调用
+Failsafe Cluster	失败安全，出现异常时，直接忽略
+Failback Cluster	失败自动恢复，记录失败请求，定时重发
+Forking Cluster	并行调用多个服务器，只要一个成功即返回
+Broadcast Cluster	广播逐个调用所有提供者，任意一个报错则报错
+
+## Dubbo有哪几种负载均衡策略，默认是哪种？
+负载均衡策略	说明
+Random LoadBalance	随机，按权重设置随机概率（默认）
+RoundRobin LoadBalance	轮询，按公约后的权重设置轮询比率
+LeastActive LoadBalance	最少活跃调用数，相同活跃数的随机
+ConsistentHash LoadBalance	一致性 Hash，相同参数的请求总是发到同一提供者
