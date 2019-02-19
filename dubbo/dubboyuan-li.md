@@ -31,7 +31,7 @@ Dubbo是分布式服务框架，致力于提供高性能和透明化的RPC远程
 - 序列化
 
 
-# dubbo都支持什么协议，推荐用哪种？
+## dubbo都支持什么协议，推荐用哪种？
 dubbo://（推荐）
 rmi://
 hessian://
@@ -41,3 +41,10 @@ thrift://
 memcached://
 redis://
 rest://
+
+## 在 Provider 上可以配置的 Consumer 端的属性有哪些？
+
+1）timeout：方法调用超时
+2）retries：失败重试次数，默认重试 2 次
+3）loadbalance：负载均衡算法，默认随机
+4）actives 消费者端，最大并发调用限制
