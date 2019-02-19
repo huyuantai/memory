@@ -29,3 +29,16 @@ Dubbo是分布式服务框架，致力于提供高性能和透明化的RPC远程
 - 服务管理
 - 通信细节
 - 序列化
+
+
+# dubbo都支持什么协议，推荐用哪种？
+
+dubbo://（推荐）
+rmi://
+hessian://
+http://
+webservice://
+thrift://
+memcached://
+redis://
+rest://
