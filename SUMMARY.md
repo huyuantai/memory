@@ -47,6 +47,8 @@
     * [Java回调](java/java-se/javahui-diao.md)
   * [设计模式](she-ji-mo-shi.md)
   * [ThreadLocal类型变量为何声明为静态](java/threadlocallei-xing-bian-liang-wei-he-sheng-ming-wei-jing-tai.md)
+* [Dubbo](dubbo.md)
+  * [Dubbo原理](dubbo/dubboyuan-li.md)
 * [数据库](shu-ju-ku.md)
   * [Sql](shu-ju-ku/sql.md)
     * [sql 课程创建](shu-ju-ku/sql/sql-ke-cheng-chuang-jian.md)
@@ -79,5 +81,5 @@
   * [CAS SSO](cas-sso.md)
   * [Elasticsearch ](elasticsearch.md)
 * [不同架构分类](bu-tong-jia-gou-fen-lei.md)
-* [学习内容](xue-xi-nei-rong.md)
+* Dubbo
 
