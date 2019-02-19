@@ -10,3 +10,5 @@ Dubbo是分布式服务框架，致力于提供高性能和透明化的RPC远程
 
 ## 各自角色流程
 ![](/assets/architecture.png)
+
+## 调用关系说明
