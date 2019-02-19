@@ -43,7 +43,6 @@ redis://
 rest://
 
 ## 在 Provider 上可以配置的 Consumer 端的属性有哪些？
-
 1）timeout：方法调用超时
 2）retries：失败重试次数，默认重试 2 次
 3）loadbalance：负载均衡算法，默认随机
