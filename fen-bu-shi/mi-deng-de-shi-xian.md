@@ -34,3 +34,5 @@
 ####  注意：id字段一定是主键或者唯一索引，不然是锁表，会死人的, 悲观锁使用时一般伴随事务一起使用，数据锁定时间可能会很长，根据实际情况选用 
 
 - 乐观锁
+1. 通过版本号实现 
+update table_xxx set name=#name#,version=version+1 where version=#version# 
