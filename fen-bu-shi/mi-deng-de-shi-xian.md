@@ -45,3 +45,7 @@ update table_xxx set avai_amount=avai_amount-#subAmount# where avai_amount-#subA
 ####   注意：乐观锁的更新操作，最好用主键或者唯一索引来更新,这样是行锁，否则更新时会锁表，上面两个sql改成下面的两个更好 
 update table_xxx set name=#name#,version=version+1 where id=#id# and version=#version# 
 update table_xxx set avai_amount=avai_amount-#subAmount# where id=#id# and avai_amount-#subAmount# >= 0 
+
+-----
+
+- 分布式锁(redis,zookeeper)
