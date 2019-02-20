@@ -26,3 +26,10 @@
 2.数据连同toke提交到后台，校验token，同时删除token，生成新的token返回 
 
 #### 注意：redis要用删除操作来判断token，删除成功代表token校验通过，如果用select+delete来校验token，存在并发问题，不建议使用
+
+
+- 悲观锁 
+获取数据的时候加锁获取 
+select * from table_xxx where id='xxx' for update; 
+注意：id字段一定是主键或者唯一索引，不然是锁表，会死人的 
+悲观锁使用时一般伴随事务一起使用，数据锁定时间可能会很长，根据实际情况选用 
