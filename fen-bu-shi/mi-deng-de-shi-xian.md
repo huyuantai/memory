@@ -24,3 +24,5 @@
 > 处理流程： 
 1.数据提交前要向服务的申请token，token放到redis或jvm内存，token有效时间,token返回前端form中 
 2.数据连同toke提交到后台，校验token，同时删除token，生成新的token返回 
+
+#### 注意：redis要用删除操作来判断token，删除成功代表token校验通过，如果用select+delete来校验token，存在并发问题，不建议使用
