@@ -58,5 +58,6 @@ update table_xxx set avai_amount=avai_amount-#subAmount# where id=#id# and avai_
 注意：核心高并发流程不要用这种方法 
 
 -----
+- 状态机幂等
 
 
