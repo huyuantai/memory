@@ -1,1 +1,1 @@
-https://blog.fundebug.com/2019/02/01/details-about-6-web-security/
+https://segmentfault.com/a/1190000018073845
