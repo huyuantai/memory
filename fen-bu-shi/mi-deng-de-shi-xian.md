@@ -37,3 +37,5 @@
 
 1.通过版本号实现 
 update table_xxx set name=#name#,version=version+1 where version=#version# 
+2. 通过条件限制 
+update table_xxx set avai_amount=avai_amount-#subAmount# where avai_amount-#subAmount# >= 0 
