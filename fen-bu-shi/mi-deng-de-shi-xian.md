@@ -49,3 +49,14 @@ update table_xxx set avai_amount=avai_amount-#subAmount# where id=#id# and avai_
 -----
 
 - 分布式锁(redis,zookeeper)
+-----
+
+
+- select + insert 
+
+并发不高的后台系统，或者一些任务JOB，为了支持幂等，支持重复执行，简单的处理方法是，先查询下一些关键数据，判断是否已经执行过，在进行业务处理，就可以了 
+注意：核心高并发流程不要用这种方法 
+
+-----
+
+
