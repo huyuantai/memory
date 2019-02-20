@@ -71,6 +71,7 @@
   * [一致性手段](fen-bu-shi/yi-zhi-xing-shou-duan.md)
   * [数据库和缓存双写一致性](fen-bu-shi/shu-ju-ku-he-huan-cun-shuang-xie-yi-zhi-xing.md)
   * [分布式问题](fen-bu-shi/fen-bu-shi-wen-ti.md)
+  * [幂等的实现](fen-bu-shi/mi-deng-de-shi-xian.md)
 * [工作效率提升](gong-zuo-xiao-lv-ti-sheng.md)
   * [需求分析问题 与 各类方案解决](xu-qiu-fen-xi-wen-ti-yu-ge-lei-fang-an-jie-jue.md)
   * [工作方式](gong-zuo-xiao-lv-ti-sheng/gong-zuo-fang-shi.md)
