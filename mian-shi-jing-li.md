@@ -3,6 +3,12 @@
 2.使用遇到的问题
 3.设计方案
 
+面试官心理分析
+MQ、ES、Redis、Dubbo，上来先问你一些思考的问题
+原理 （kafka 高可用架构原理、es 分布式架构原理、redis 线程模型原理、Dubbo 工作原理）
+生产环境碰到的问题 （每种技术引入之后生产环境都可能会碰到一些问题）
+系统设计 （设计 MQ，设计搜索引擎，设计一个缓存，设计 rpc 框架）
+
 
 - 1.大文件 分而治之 hash对比相同的
 - 2.hashMap、ConcurrentHashMap 线程安全，hashMap用Collections.s..Map 保证同步
