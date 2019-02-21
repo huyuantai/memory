@@ -1,2 +1,10 @@
 - 1.大文件 分而治之 hash对比相同的
--
+- 2.hashMap、ConcurrentHashMap 线程安全，hashMap用Collections.s..Map 保证同步
+- 3.分布式锁的实现
+- 4.索引的分类，内部结构B树
+- 5.缓存的应用，缓存穿透，缓存雪崩，缓存一致性
+- 6.单例模式的线程安全保证
+- 7.重定向、转发
+- 8.spring AOP、DI
+- 9.设计模式
+- 10.
