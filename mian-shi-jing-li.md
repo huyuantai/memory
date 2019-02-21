@@ -1,3 +1,9 @@
+面试三大问题
+1.原理
+2.使用遇到的问题
+3.设计方案
+
+
 - 1.大文件 分而治之 hash对比相同的
 - 2.hashMap、ConcurrentHashMap 线程安全，hashMap用Collections.s..Map 保证同步
 - 3.分布式锁的实现
