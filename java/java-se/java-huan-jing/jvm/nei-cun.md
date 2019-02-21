@@ -3,7 +3,7 @@ https://hacpai.com/article/1519403810488
 https://tech.meituan.com/jvm_optimize.html
 
 
-``` bash
+``` java
 #线程cpu占用
 #!/bin/bash
 
