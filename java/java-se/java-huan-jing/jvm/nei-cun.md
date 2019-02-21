@@ -3,6 +3,36 @@ https://hacpai.com/article/1519403810488
 https://tech.meituan.com/jvm_optimize.html
 
 
+``` bash
+#线程cpu占用
+#!/bin/bash
+
+[ $# -ne 1 ] && exit 1
+
+jstack $1 >/tmp/jstack.log
+
+for cpu_tid in `ps -mp $1 -o THREAD,tid,time|sort -k2nr| sed -n '2,15p' |awk '{print$2"_"$(NF-1)}'`;do
+
+cpu=`echo $cpu_tid | cut -d_ -f1`
+
+tid=`echo $cpu_tid | cut -d_ -f2`
+
+xtid=`printf "%x\n" $tid`
+
+echo -e "\033[31m========================$xtid $cpu%\033[0m"
+
+cat /tmp/jstack.log | sed -n -e "/0x$xtid/,/^$/ p"
+
+#cat /tmp/jstack.log | grep "$xtid" -A15
+
+done
+
+rm /tmp/jstack.log
+```
+
+
+
+
 # 故障排除流程
 
 表现  
