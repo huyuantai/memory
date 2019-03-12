@@ -61,8 +61,8 @@
     * [整体sql原理](shu-ju-ku/sqlyu-ju-yuan-li/zheng-ti-sql-yuan-li.md)
     * [Join sql 原理](shu-ju-ku/sqlyu-ju-yuan-li/join-sql-yuan-li.md)
     * [具体关键字原理](shu-ju-ku/sqlyu-ju-yuan-li/ju-ti-guan-jian-zi-yuan-li.md)
-    * 索引
-    * 临时表
+    * [索引](shu-ju-ku/sqlyu-ju-yuan-li/suo-yin.md)
+    * [临时表](shu-ju-ku/sqlyu-ju-yuan-li/lin-shi-biao.md)
     * [LEFT JOIN 总结原理](shu-ju-ku/sqlyu-ju-yuan-li/left-join-zong-jie-yuan-li.md)
   * [Mysql事务与Spring事务](shu-ju-ku/mysqlshi-wu-yu-spring-shi-wu.md)
 * [分布式](fen-bu-shi.md)
