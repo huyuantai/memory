@@ -71,6 +71,14 @@ a中当 A.t_id = B.t_id AND B.status = 1 的数据会被匹配，不符合的都
 b中当A.t_id = B.t_id的数据会被匹配，不符合的都会以A为准 补 NULL记录，然后再进行where 条件过滤
 
 
+ LEFT JOIN sz_front_message_company fmc ON fmc.target_id = msg.id AND fmc.company_target = #{companyTarget}
+LEFT JOIN crm_organization company ON company.id = fmc.company_id
+
+需要创建的索引为 KEY `company_target_index` (`target_id`,`company_target`,`company_id`) USING BTREE
+
+因为left join fmc 都用到的字段
+
+
 
 
 
