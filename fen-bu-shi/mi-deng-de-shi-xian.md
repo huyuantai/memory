@@ -1,6 +1,7 @@
 https://825635381.iteye.com/blog/2276077
 
 https://mp.weixin.qq.com/s?__biz=MjM5ODYxMDA5OQ==&mid=2651960002&idx=1&sn=c0775231bccf002c3178eabe43f1cdcb&chksm=bd2d071e8a5a8e08c3a5287247ea41dee6b2621e6ffafbf909ec1e8a866b7c816eeeea227246&scene=21#wechat_redirect
+消息总线真的能保证幂等
 
 # 幂等
 - 系统中有很多操作，是不管做多少次，都应该产生一样的效果或返回一样的结果
