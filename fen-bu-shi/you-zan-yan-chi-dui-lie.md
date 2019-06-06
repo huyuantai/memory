@@ -1,0 +1,1 @@
+https://tech.youzan.com/queuing_delay/
