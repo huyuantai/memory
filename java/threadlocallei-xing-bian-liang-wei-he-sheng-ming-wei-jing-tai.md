@@ -9,6 +9,7 @@ Java 中每个线程都有与之关联的Thread对象，Thread对象中有一个
 如果把threadLocal声明为非静态，则在类A的每个实例中都会产生一个新对象，这是毫无意义的，只是增加了内存消耗
 
 
+## 内存泄漏
 ThreadLocal内存泄漏的根源是：由于ThreadLocalMap的生命周期跟Thread一样长，如果没有手动删除对应key就会导致内存泄漏，而不是因为弱引用。
 
 想要避免内存泄露就要手动remove()掉！
