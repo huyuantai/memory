@@ -90,4 +90,5 @@
 * [常见六大Web安全攻防解析](chang-jian-liu-da-web-an-quan-gong-fang-jie-xi.md)
 * [Redis](redis.md)
 * [姐姐位置](jie-jie-wei-zhi.md)
+* [Centos](centos.md)
 
