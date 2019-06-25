@@ -9,5 +9,10 @@ su -x
 - 2.编辑-虚拟网络编辑器
 ![](/assets/xuni.png)
 
+- 3.更改配置
+![](/assets/genggai.png)
+
+- 4.设置桥接 Realtek ... Controller
+
 
 
