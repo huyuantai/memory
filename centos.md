@@ -2,4 +2,4 @@
 su -x
 
 
-# VMware
+# VMware Centos 连接上网
