@@ -22,7 +22,7 @@ sudo gedit /etc/sysconfig/network-scripts/ifcfg-ens33
 sudo service network restart
 
 
--6
+- 6.编辑网络配置 
 
 
 
