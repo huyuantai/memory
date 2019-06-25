@@ -13,6 +13,10 @@ su -x
 ![](/assets/genggai.png)
 
 - 4.设置桥接 Realtek ... Controller
+![](/assets/sehiji.png)
+
+- 5.centos 更改配置
+
 
 
 
