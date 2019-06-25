@@ -23,7 +23,7 @@ sudo service network restart
 
 
 - 6.编辑网络配置 （与本机 同一网络段）
-
+![](/assets/wangluopeizhi.png)
 
 
 
