@@ -17,6 +17,7 @@ su -x
 
 - 5.centos 更改配置
 su -x 切换成root 用户
+sudo gedit /etc/sysconfig/network-scripts/ifcfg-ens33
 
 
 
