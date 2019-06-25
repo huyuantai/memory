@@ -91,4 +91,5 @@
 * [Redis](redis.md)
 * [姐姐位置](jie-jie-wei-zhi.md)
 * [Centos](centos.md)
+  * [Centos命令](centos/centosming-ling.md)
 
