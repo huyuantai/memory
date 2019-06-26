@@ -11,3 +11,6 @@ yum install -y openssl openssh-server
 
 # 启动ssh的服务
 
+
+# 设置开机自动启动ssh服务
+
