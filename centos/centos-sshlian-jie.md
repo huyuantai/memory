@@ -13,4 +13,5 @@ yum install -y openssl openssh-server
 systemctl start sshd.service
 
 # 设置开机自动启动ssh服务
+systemctl enable sshd.service
 
