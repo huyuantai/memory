@@ -9,3 +9,5 @@ yum install -y openssl openssh-server
 - PubkeyAuthentication yes
 
 
+# 启动ssh的服务
+
