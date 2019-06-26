@@ -92,6 +92,6 @@
 * [姐姐位置](jie-jie-wei-zhi.md)
 * [Centos](centos.md)
   * [外网不能访问的三种原因](centos/wai-wang-bu-neng-fang-wen-de-san-zhong-yuan-yin.md)
-  * Centos ssh连接
+  * [Centos ssh连接](centos/centos-sshlian-jie.md)
   * [VMware Centos 配置上网](centos/vmware-centos-pei-zhi-shang-wang.md)
 
