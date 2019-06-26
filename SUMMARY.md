@@ -91,6 +91,7 @@
 * [Redis](redis.md)
 * [姐姐位置](jie-jie-wei-zhi.md)
 * [Centos](centos.md)
-  * [Centos命令](centos/centosming-ling.md)
   * [外网不能访问的三种原因](centos/wai-wang-bu-neng-fang-wen-de-san-zhong-yuan-yin.md)
+  * Centos ssh连接
+  * [VMware Centos 配置上网](centos/vmware-centos-pei-zhi-shang-wang.md)
 
