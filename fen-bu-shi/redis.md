@@ -1,3 +1,7 @@
+https://www.cnblogs.com/duhuo/p/8526130.html
+该网址的整理
+
+
 # Redis 类型
 String、字典Hash、列表List、集合Set、有序集合SortedSet
 数据结构HyperLogLog、Geo、Pub/Sub
