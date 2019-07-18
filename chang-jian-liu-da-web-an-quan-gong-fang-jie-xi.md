@@ -3,7 +3,6 @@ https://segmentfault.com/a/1190000018073845
 cxsf 跨站攻击， B网站诱导客户点击 请求A网站数据
 
 在HTTP协议中，每一个异步请求都会携带两个Header，用于标记来源域名：
-
 Origin Header
 Referer Header
 1.验证 Referer 请求头来源
