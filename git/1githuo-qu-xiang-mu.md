@@ -4,12 +4,15 @@
 
 # 现存目录
 - git init
+
 - git add *.c
+
 - git add README
+
 - git commit -m 'initial project version'
 
 # 克隆
 
-git clone git://github.com/schacon/grit.git
+- git clone git://github.com/schacon/grit.git
 
-git clone git://github.com/schacon/grit.git mygrit    别名
+- git clone git://github.com/schacon/grit.git mygrit    别名
