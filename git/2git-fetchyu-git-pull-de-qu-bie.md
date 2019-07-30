@@ -1,3 +1,6 @@
+
+# Git fetch 自己手动合并 
+
 git fetch origin master:tmp 
 //在本地新建一个temp分支，并将远程origin仓库的master分支代码下载到本地temp分支
 git diff tmp 
