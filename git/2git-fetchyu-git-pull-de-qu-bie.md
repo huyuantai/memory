@@ -9,3 +9,6 @@ git merge tmp
 //合并temp分支到本地的master分支
 git branch -d temp
 //如果不想保留temp分支 可以用这步删除
+
+
+# 
