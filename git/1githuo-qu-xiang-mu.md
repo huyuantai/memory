@@ -9,3 +9,5 @@
 - git commit -m 'initial project version'
 
 # 克隆
+
+git clone git://github.com/schacon/grit.git
