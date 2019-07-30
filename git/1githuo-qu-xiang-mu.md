@@ -11,3 +11,5 @@
 # 克隆
 
 git clone git://github.com/schacon/grit.git
+
+git clone git://github.com/schacon/grit.git mygrit
