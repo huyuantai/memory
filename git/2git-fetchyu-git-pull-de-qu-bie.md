@@ -11,4 +11,4 @@ git branch -d temp
 //如果不想保留temp分支 可以用这步删除
 
 
-# 
+# Git pull 自动合并
