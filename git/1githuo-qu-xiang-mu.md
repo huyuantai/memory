@@ -12,4 +12,4 @@
 
 git clone git://github.com/schacon/grit.git
 
-git clone git://github.com/schacon/grit.git mygrit
+git clone git://github.com/schacon/grit.git mygrit    别名
