@@ -89,6 +89,7 @@
 * [Dubbo](dubbo.md)
 * [常见六大Web安全攻防解析](chang-jian-liu-da-web-an-quan-gong-fang-jie-xi.md)
 * [Redis](redis.md)
+  * [1.redis key 设计](redis/1redis-key-she-ji.md)
 * [姐姐位置](jie-jie-wei-zhi.md)
 * [Centos](centos.md)
   * [外网不能访问的三种原因](centos/wai-wang-bu-neng-fang-wen-de-san-zhong-yuan-yin.md)
