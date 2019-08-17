@@ -34,6 +34,7 @@
         * [回收算法](java/java-se/java-huan-jing/jvm/hui-shou-suan-fa.md)
         * [GC](java/java-se/java-huan-jing/jvm/gc.md)
         * [JVM 参数](java/java-se/java-huan-jing/jvm/jvm-can-shu.md)
+        * [CMS收集器和G1收集器的区别](java/java-se/java-huan-jing/jvm/cmsshou-ji-qi-he-g1-shou-ji-qi-de-qu-bie.md)
       * [JVM 面试题](java/java-se/java-huan-jing/jvm-mian-shi-ti.md)
     * [基本数据类型](java/java-se/ji-ben-shu-ju-lei-xing.md)
     * [面向对象](java/java-se/mian-xiang-dui-xiang.md)
